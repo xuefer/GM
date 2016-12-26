@@ -1,0 +1,2468 @@
+A.link {
+	color: blue;
+	text-decoration: underline;
+}
+A.visited {
+	color: purple;
+	text-decoration: underline;
+}
+A.active {
+	color: red;
+	text-decoration: underline;
+}
+P.FM00-Heading- {
+	display: block;
+	text-align: center;
+	text-indent: 0.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: bold;
+	font-style: Regular;
+	color: #ff0000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+H1.FM951-Section-Title, H2.FM951-Section-Title, H3.FM951-Section-Title, H4.FM951-Section-Title, H5.FM951-Section-Title, H6.FM951-Section-Title, {
+	display: block;
+	text-align: left;
+	text-indent: 0.000000pt;
+	margin-top: 8.000000pt;
+	margin-bottom: 8.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 16.000000pt;
+	font-weight: bold;
+	font-style: Regular;
+	color: #0000ff;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+H1.FM001-Heading-1, H2.FM001-Heading-1, H3.FM001-Heading-1, H4.FM001-Heading-1, H5.FM001-Heading-1, H6.FM001-Heading-1,
+H1.FM001-Heading-1-C, H2.FM001-Heading-1-C, H3.FM001-Heading-1-C, H4.FM001-Heading-1-C, H5.FM001-Heading-1-C, H6.FM001-Heading-1-C,
+H1.FM001-Heading-1-R, H2.FM001-Heading-1-R, H3.FM001-Heading-1-R, H4.FM001-Heading-1-R, H5.FM001-Heading-1-R, H6.FM001-Heading-1-R,
+H1.FM001-Heading-1-X, H2.FM001-Heading-1-X, H3.FM001-Heading-1-X, H4.FM001-Heading-1-X, H5.FM001-Heading-1-X, H6.FM001-Heading-1-X, {
+	display: block;
+	text-align: left;
+	text-indent: 0.000000pt;
+	margin-top: 8.000000pt;
+	margin-bottom: 8.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 14.000000pt;
+	font-weight: bold;
+	font-style: Regular;
+	color: #0000ff;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+H1.FM002-Heading-2, H2.FM002-Heading-2, H3.FM002-Heading-2, H4.FM002-Heading-2, H5.FM002-Heading-2, H6.FM002-Heading-2,
+H1.FM002-Heading-2-C, H2.FM002-Heading-2-C, H3.FM002-Heading-2-C, H4.FM002-Heading-2-C, H5.FM002-Heading-2-C, H6.FM002-Heading-2-C,
+H1.FM002-Heading-2-R, H2.FM002-Heading-2-R, H3.FM002-Heading-2-R, H4.FM002-Heading-2-R, H5.FM002-Heading-2-R, H6.FM002-Heading-2-R,
+H1.FM002-Heading-2-X, H2.FM002-Heading-2-X, H3.FM002-Heading-2-X, H4.FM002-Heading-2-X, H5.FM002-Heading-2-X, H6.FM002-Heading-2-X,
+H1.FM003-Heading-3, H2.FM003-Heading-3, H3.FM003-Heading-3, H4.FM003-Heading-3, H5.FM003-Heading-3, H6.FM003-Heading-3,
+H1.FM003-Heading-3-C, H2.FM003-Heading-3-C, H3.FM003-Heading-3-C, H4.FM003-Heading-3-C, H5.FM003-Heading-3-C, H6.FM003-Heading-3-C,
+H1.FM003-Heading-3-R, H2.FM003-Heading-3-R, H3.FM003-Heading-3-R, H4.FM003-Heading-3-R, H5.FM003-Heading-3-R, H6.FM003-Heading-3-R,
+H1.FM003-Heading-3-X, H2.FM003-Heading-3-X, H3.FM003-Heading-3-X, H4.FM003-Heading-3-X, H5.FM003-Heading-3-X, H6.FM003-Heading-3-X,
+H1.FM004-Heading-4, H2.FM004-Heading-4, H3.FM004-Heading-4, H4.FM004-Heading-4, H5.FM004-Heading-4, H6.FM004-Heading-4,
+H1.FM004-Heading-4-C, H2.FM004-Heading-4-C, H3.FM004-Heading-4-C, H4.FM004-Heading-4-C, H5.FM004-Heading-4-C, H6.FM004-Heading-4-C,
+H1.FM004-Heading-4-R, H2.FM004-Heading-4-R, H3.FM004-Heading-4-R, H4.FM004-Heading-4-R, H5.FM004-Heading-4-R, H6.FM004-Heading-4-R,
+H1.FM004-Heading-4-X, H2.FM004-Heading-4-X, H3.FM004-Heading-4-X, H4.FM004-Heading-4-X, H5.FM004-Heading-4-X, H6.FM004-Heading-4-X,
+H1.FM005-Heading-5, H2.FM005-Heading-5, H3.FM005-Heading-5, H4.FM005-Heading-5, H5.FM005-Heading-5, H6.FM005-Heading-5,
+H1.FM005-Heading-5-C, H2.FM005-Heading-5-C, H3.FM005-Heading-5-C, H4.FM005-Heading-5-C, H5.FM005-Heading-5-C, H6.FM005-Heading-5-C,
+H1.FM005-Heading-5-R, H2.FM005-Heading-5-R, H3.FM005-Heading-5-R, H4.FM005-Heading-5-R, H5.FM005-Heading-5-R, H6.FM005-Heading-5-R,
+H1.FM005-Heading-5-X, H2.FM005-Heading-5-X, H3.FM005-Heading-5-X, H4.FM005-Heading-5-X, H5.FM005-Heading-5-X, H6.FM005-Heading-5-X,
+H1.FM006-Heading-6, H2.FM006-Heading-6, H3.FM006-Heading-6, H4.FM006-Heading-6, H5.FM006-Heading-6, H6.FM006-Heading-6,
+H1.FM006-Heading-6-C, H2.FM006-Heading-6-C, H3.FM006-Heading-6-C, H4.FM006-Heading-6-C, H5.FM006-Heading-6-C, H6.FM006-Heading-6-C,
+H1.FM006-Heading-6-R, H2.FM006-Heading-6-R, H3.FM006-Heading-6-R, H4.FM006-Heading-6-R, H5.FM006-Heading-6-R, H6.FM006-Heading-6-R,
+H1.FM006-Heading-6-X, H2.FM006-Heading-6-X, H3.FM006-Heading-6-X, H4.FM006-Heading-6-X, H5.FM006-Heading-6-X, H6.FM006-Heading-6-X,
+H1.FM401-Table-Title-1, H2.FM401-Table-Title-1, H3.FM401-Table-Title-1, H4.FM401-Table-Title-1, H5.FM401-Table-Title-1, H6.FM401-Table-Title-1,
+H1.FM401-Table-Title-1-C, H2.FM401-Table-Title-1-C, H3.FM401-Table-Title-1-C, H4.FM401-Table-Title-1-C, H5.FM401-Table-Title-1-C, H6.FM401-Table-Title-1-C,
+H1.FM401-Table-Title-1-R, H2.FM401-Table-Title-1-R, H3.FM401-Table-Title-1-R, H4.FM401-Table-Title-1-R, H5.FM401-Table-Title-1-R, H6.FM401-Table-Title-1-R,
+H1.FM401-Table-Title-1-X, H2.FM401-Table-Title-1-X, H3.FM401-Table-Title-1-X, H4.FM401-Table-Title-1-X, H5.FM401-Table-Title-1-X, H6.FM401-Table-Title-1-X,
+H1.FM402-Table-Title-2, H2.FM402-Table-Title-2, H3.FM402-Table-Title-2, H4.FM402-Table-Title-2, H5.FM402-Table-Title-2, H6.FM402-Table-Title-2,
+H1.FM402-Table-Title-2-C, H2.FM402-Table-Title-2-C, H3.FM402-Table-Title-2-C, H4.FM402-Table-Title-2-C, H5.FM402-Table-Title-2-C, H6.FM402-Table-Title-2-C,
+H1.FM402-Table-Title-2-R, H2.FM402-Table-Title-2-R, H3.FM402-Table-Title-2-R, H4.FM402-Table-Title-2-R, H5.FM402-Table-Title-2-R, H6.FM402-Table-Title-2-R,
+H1.FM402-Table-Title-2-X, H2.FM402-Table-Title-2-X, H3.FM402-Table-Title-2-X, H4.FM402-Table-Title-2-X, H5.FM402-Table-Title-2-X, H6.FM402-Table-Title-2-X,
+H1.FM403-Table-Title-3, H2.FM403-Table-Title-3, H3.FM403-Table-Title-3, H4.FM403-Table-Title-3, H5.FM403-Table-Title-3, H6.FM403-Table-Title-3,
+H1.FM403-Table-Title-3-C, H2.FM403-Table-Title-3-C, H3.FM403-Table-Title-3-C, H4.FM403-Table-Title-3-C, H5.FM403-Table-Title-3-C, H6.FM403-Table-Title-3-C,
+H1.FM403-Table-Title-3-R, H2.FM403-Table-Title-3-R, H3.FM403-Table-Title-3-R, H4.FM403-Table-Title-3-R, H5.FM403-Table-Title-3-R, H6.FM403-Table-Title-3-R,
+H1.FM403-Table-Title-3-X, H2.FM403-Table-Title-3-X, H3.FM403-Table-Title-3-X, H4.FM403-Table-Title-3-X, H5.FM403-Table-Title-3-X, H6.FM403-Table-Title-3-X,
+H1.FM404-Table-Title-4, H2.FM404-Table-Title-4, H3.FM404-Table-Title-4, H4.FM404-Table-Title-4, H5.FM404-Table-Title-4, H6.FM404-Table-Title-4,
+H1.FM404-Table-Title-4-C, H2.FM404-Table-Title-4-C, H3.FM404-Table-Title-4-C, H4.FM404-Table-Title-4-C, H5.FM404-Table-Title-4-C, H6.FM404-Table-Title-4-C,
+H1.FM404-Table-Title-4-R, H2.FM404-Table-Title-4-R, H3.FM404-Table-Title-4-R, H4.FM404-Table-Title-4-R, H5.FM404-Table-Title-4-R, H6.FM404-Table-Title-4-R,
+H1.FM404-Table-Title-4-X, H2.FM404-Table-Title-4-X, H3.FM404-Table-Title-4-X, H4.FM404-Table-Title-4-X, H5.FM404-Table-Title-4-X, H6.FM404-Table-Title-4-X {
+	display: block;
+	text-align: left;
+	text-indent: 0.000000pt;
+	margin-top: 8.000000pt;
+	margin-bottom: 8.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 14.000000pt;
+	font-weight: bold;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+H1.FM951-Section-TitleTOC, H2.FM951-Section-TitleTOC, H3.FM951-Section-TitleTOC, H4.FM951-Section-TitleTOC, H5.FM951-Section-TitleTOC, H6.FM951-Section-TitleTOC,
+H1.FM001-Heading-1TOC, H2.FM001-Heading-1TOC, H3.FM001-Heading-1TOC, H4.FM001-Heading-1TOC, H5.FM001-Heading-1TOC, H6.FM001-Heading-1TOC,
+H1.FM001-Heading-1-CTOC, H2.FM001-Heading-1-CTOC, H3.FM001-Heading-1-CTOC, H4.FM001-Heading-1-CTOC, H5.FM001-Heading-1-CTOC, H6.FM001-Heading-1-CTOC,
+H1.FM001-Heading-1-RTOC, H2.FM001-Heading-1-RTOC, H3.FM001-Heading-1-RTOC, H4.FM001-Heading-1-RTOC, H5.FM001-Heading-1-RTOC, H6.FM001-Heading-1-RTOC,
+H1.FM001-Heading-1-XTOC, H2.FM001-Heading-1-XTOC, H3.FM001-Heading-1-XTOC, H4.FM001-Heading-1-XTOC, H5.FM001-Heading-1-XTOC, H6.FM001-Heading-1-XTOC,
+H1.FM002-Heading-2TOC, H2.FM002-Heading-2TOC, H3.FM002-Heading-2TOC, H4.FM002-Heading-2TOC, H5.FM002-Heading-2TOC, H6.FM002-Heading-2TOC,
+H1.FM002-Heading-2-CTOC, H2.FM002-Heading-2-CTOC, H3.FM002-Heading-2-CTOC, H4.FM002-Heading-2-CTOC, H5.FM002-Heading-2-CTOC, H6.FM002-Heading-2-CTOC,
+H1.FM002-Heading-2-RTOC, H2.FM002-Heading-2-RTOC, H3.FM002-Heading-2-RTOC, H4.FM002-Heading-2-RTOC, H5.FM002-Heading-2-RTOC, H6.FM002-Heading-2-RTOC,
+H1.FM002-Heading-2-XTOC, H2.FM002-Heading-2-XTOC, H3.FM002-Heading-2-XTOC, H4.FM002-Heading-2-XTOC, H5.FM002-Heading-2-XTOC, H6.FM002-Heading-2-XTOC,
+H1.FM003-Heading-3TOC, H2.FM003-Heading-3TOC, H3.FM003-Heading-3TOC, H4.FM003-Heading-3TOC, H5.FM003-Heading-3TOC, H6.FM003-Heading-3TOC,
+H1.FM003-Heading-3-CTOC, H2.FM003-Heading-3-CTOC, H3.FM003-Heading-3-CTOC, H4.FM003-Heading-3-CTOC, H5.FM003-Heading-3-CTOC, H6.FM003-Heading-3-CTOC,
+H1.FM003-Heading-3-RTOC, H2.FM003-Heading-3-RTOC, H3.FM003-Heading-3-RTOC, H4.FM003-Heading-3-RTOC, H5.FM003-Heading-3-RTOC, H6.FM003-Heading-3-RTOC,
+H1.FM003-Heading-3-XTOC, H2.FM003-Heading-3-XTOC, H3.FM003-Heading-3-XTOC, H4.FM003-Heading-3-XTOC, H5.FM003-Heading-3-XTOC, H6.FM003-Heading-3-XTOC,
+H1.FM004-Heading-4TOC, H2.FM004-Heading-4TOC, H3.FM004-Heading-4TOC, H4.FM004-Heading-4TOC, H5.FM004-Heading-4TOC, H6.FM004-Heading-4TOC,
+H1.FM004-Heading-4-CTOC, H2.FM004-Heading-4-CTOC, H3.FM004-Heading-4-CTOC, H4.FM004-Heading-4-CTOC, H5.FM004-Heading-4-CTOC, H6.FM004-Heading-4-CTOC,
+H1.FM004-Heading-4-RTOC, H2.FM004-Heading-4-RTOC, H3.FM004-Heading-4-RTOC, H4.FM004-Heading-4-RTOC, H5.FM004-Heading-4-RTOC, H6.FM004-Heading-4-RTOC,
+H1.FM004-Heading-4-XTOC, H2.FM004-Heading-4-XTOC, H3.FM004-Heading-4-XTOC, H4.FM004-Heading-4-XTOC, H5.FM004-Heading-4-XTOC, H6.FM004-Heading-4-XTOC,
+H1.FM005-Heading-5TOC, H2.FM005-Heading-5TOC, H3.FM005-Heading-5TOC, H4.FM005-Heading-5TOC, H5.FM005-Heading-5TOC, H6.FM005-Heading-5TOC,
+H1.FM005-Heading-5-CTOC, H2.FM005-Heading-5-CTOC, H3.FM005-Heading-5-CTOC, H4.FM005-Heading-5-CTOC, H5.FM005-Heading-5-CTOC, H6.FM005-Heading-5-CTOC,
+H1.FM005-Heading-5-RTOC, H2.FM005-Heading-5-RTOC, H3.FM005-Heading-5-RTOC, H4.FM005-Heading-5-RTOC, H5.FM005-Heading-5-RTOC, H6.FM005-Heading-5-RTOC,
+H1.FM005-Heading-5-XTOC, H2.FM005-Heading-5-XTOC, H3.FM005-Heading-5-XTOC, H4.FM005-Heading-5-XTOC, H5.FM005-Heading-5-XTOC, H6.FM005-Heading-5-XTOC,
+H1.FM006-Heading-6TOC, H2.FM006-Heading-6TOC, H3.FM006-Heading-6TOC, H4.FM006-Heading-6TOC, H5.FM006-Heading-6TOC, H6.FM006-Heading-6TOC,
+H1.FM006-Heading-6-CTOC, H2.FM006-Heading-6-CTOC, H3.FM006-Heading-6-CTOC, H4.FM006-Heading-6-CTOC, H5.FM006-Heading-6-CTOC, H6.FM006-Heading-6-CTOC,
+H1.FM006-Heading-6-RTOC, H2.FM006-Heading-6-RTOC, H3.FM006-Heading-6-RTOC, H4.FM006-Heading-6-RTOC, H5.FM006-Heading-6-RTOC, H6.FM006-Heading-6-RTOC,
+H1.FM006-Heading-6-XTOC, H2.FM006-Heading-6-XTOC, H3.FM006-Heading-6-XTOC, H4.FM006-Heading-6-XTOC, H5.FM006-Heading-6-XTOC, H6.FM006-Heading-6-XTOC,
+H1.FM401-Table-Title-1TOC, H2.FM401-Table-Title-1TOC, H3.FM401-Table-Title-1TOC, H4.FM401-Table-Title-1TOC, H5.FM401-Table-Title-1TOC, H6.FM401-Table-Title-1TOC,
+H1.FM401-Table-Title-1-CTOC, H2.FM401-Table-Title-1-CTOC, H3.FM401-Table-Title-1-CTOC, H4.FM401-Table-Title-1-CTOC, H5.FM401-Table-Title-1-CTOC, H6.FM401-Table-Title-1-CTOC,
+H1.FM401-Table-Title-1-RTOC, H2.FM401-Table-Title-1-RTOC, H3.FM401-Table-Title-1-RTOC, H4.FM401-Table-Title-1-RTOC, H5.FM401-Table-Title-1-RTOC, H6.FM401-Table-Title-1-RTOC,
+H1.FM401-Table-Title-1-XTOC, H2.FM401-Table-Title-1-XTOC, H3.FM401-Table-Title-1-XTOC, H4.FM401-Table-Title-1-XTOC, H5.FM401-Table-Title-1-XTOC, H6.FM401-Table-Title-1-XTOC,
+H1.FM402-Table-Title-2TOC, H2.FM402-Table-Title-2TOC, H3.FM402-Table-Title-2TOC, H4.FM402-Table-Title-2TOC, H5.FM402-Table-Title-2TOC, H6.FM402-Table-Title-2TOC,
+H1.FM402-Table-Title-2-CTOC, H2.FM402-Table-Title-2-CTOC, H3.FM402-Table-Title-2-CTOC, H4.FM402-Table-Title-2-CTOC, H5.FM402-Table-Title-2-CTOC, H6.FM402-Table-Title-2-CTOC,
+H1.FM402-Table-Title-2-RTOC, H2.FM402-Table-Title-2-RTOC, H3.FM402-Table-Title-2-RTOC, H4.FM402-Table-Title-2-RTOC, H5.FM402-Table-Title-2-RTOC, H6.FM402-Table-Title-2-RTOC,
+H1.FM402-Table-Title-2-XTOC, H2.FM402-Table-Title-2-XTOC, H3.FM402-Table-Title-2-XTOC, H4.FM402-Table-Title-2-XTOC, H5.FM402-Table-Title-2-XTOC, H6.FM402-Table-Title-2-XTOC,
+H1.FM403-Table-Title-3TOC, H2.FM403-Table-Title-3TOC, H3.FM403-Table-Title-3TOC, H4.FM403-Table-Title-3TOC, H5.FM403-Table-Title-3TOC, H6.FM403-Table-Title-3TOC,
+H1.FM403-Table-Title-3-CTOC, H2.FM403-Table-Title-3-CTOC, H3.FM403-Table-Title-3-CTOC, H4.FM403-Table-Title-3-CTOC, H5.FM403-Table-Title-3-CTOC, H6.FM403-Table-Title-3-CTOC,
+H1.FM403-Table-Title-3-RTOC, H2.FM403-Table-Title-3-RTOC, H3.FM403-Table-Title-3-RTOC, H4.FM403-Table-Title-3-RTOC, H5.FM403-Table-Title-3-RTOC, H6.FM403-Table-Title-3-RTOC,
+H1.FM403-Table-Title-3-XTOC, H2.FM403-Table-Title-3-XTOC, H3.FM403-Table-Title-3-XTOC, H4.FM403-Table-Title-3-XTOC, H5.FM403-Table-Title-3-XTOC, H6.FM403-Table-Title-3-XTOC,
+H1.FM404-Table-Title-4TOC, H2.FM404-Table-Title-4TOC, H3.FM404-Table-Title-4TOC, H4.FM404-Table-Title-4TOC, H5.FM404-Table-Title-4TOC, H6.FM404-Table-Title-4TOC,
+H1.FM404-Table-Title-4-CTOC, H2.FM404-Table-Title-4-CTOC, H3.FM404-Table-Title-4-CTOC, H4.FM404-Table-Title-4-CTOC, H5.FM404-Table-Title-4-CTOC, H6.FM404-Table-Title-4-CTOC,
+H1.FM404-Table-Title-4-RTOC, H2.FM404-Table-Title-4-RTOC, H3.FM404-Table-Title-4-RTOC, H4.FM404-Table-Title-4-RTOC, H5.FM404-Table-Title-4-RTOC, H6.FM404-Table-Title-4-RTOC,
+H1.FM404-Table-Title-4-XTOC, H2.FM404-Table-Title-4-XTOC, H3.FM404-Table-Title-4-XTOC, H4.FM404-Table-Title-4-XTOC, H5.FM404-Table-Title-4-XTOC, H6.FM404-Table-Title-4-XTOC {
+	display: block;
+	text-align: left;
+	text-indent: 10.000000pt;
+	margin-top: 8.000000pt;
+	margin-bottom: 8.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 14.000000pt;
+	font-weight: bold;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+H1.FM007-Heading-7, H2.FM007-Heading-7, H3.FM007-Heading-7, H4.FM007-Heading-7, H5.FM007-Heading-7, H6.FM007-Heading-7,
+H1.FM007-Heading-7-C, H2.FM007-Heading-7-C, H3.FM007-Heading-7-C, H4.FM007-Heading-7-C, H5.FM007-Heading-7-C, H6.FM007-Heading-7-C,
+H1.FM007-Heading-7-R, H2.FM007-Heading-7-R, H3.FM007-Heading-7-R, H4.FM007-Heading-7-R, H5.FM007-Heading-7-R, H6.FM007-Heading-7-R,
+H1.FM007-Heading-7-X, H2.FM007-Heading-7-X, H3.FM007-Heading-7-X, H4.FM007-Heading-7-X, H5.FM007-Heading-7-X, H6.FM007-Heading-7-X {
+	display: block;
+	text-align: left;
+	text-indent: 5.000000pt;
+	margin-top: 6.000000pt;
+	margin-bottom: 6.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: bold;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+H1.FM008-Heading-8, H2.FM008-Heading-8, H3.FM008-Heading-8, H4.FM008-Heading-8, H5.FM008-Heading-8, H6.FM008-Heading-8,
+H1.FM008-Heading-8-C, H2.FM008-Heading-8-C, H3.FM008-Heading-8-C, H4.FM008-Heading-8-C, H5.FM008-Heading-8-C, H6.FM008-Heading-8-C,
+H1.FM008-Heading-8-R, H2.FM008-Heading-8-R, H3.FM008-Heading-8-R, H4.FM008-Heading-8-R, H5.FM008-Heading-8-R, H6.FM008-Heading-8-R,
+H1.FM008-Heading-8-X, H2.FM008-Heading-8-X, H3.FM008-Heading-8-X, H4.FM008-Heading-8-X, H5.FM008-Heading-8-X, H6.FM008-Heading-8-X {
+	display: block;
+	text-align: justify;
+	text-indent: 10.000000pt;
+	margin-top: 4.000000pt;
+	margin-bottom: 4.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 10.000000pt;
+	font-weight: bold;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM01-Title- {
+	display: block;
+	text-align: justify;
+	text-indent: 0.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: medium;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+H1.FM011-Title-1, H2.FM011-Title-1, H3.FM011-Title-1, H4.FM011-Title-1, H5.FM011-Title-1, H6.FM011-Title-1,
+H1.FM011-Title-1-C, H2.FM011-Title-1-C, H3.FM011-Title-1-C, H4.FM011-Title-1-C, H5.FM011-Title-1-C, H6.FM011-Title-1-C,
+H1.FM011-Title-1-R, H2.FM011-Title-1-R, H3.FM011-Title-1-R, H4.FM011-Title-1-R, H5.FM011-Title-1-R, H6.FM011-Title-1-R,
+H1.FM011-Title-1-X, H2.FM011-Title-1-X, H3.FM011-Title-1-X, H4.FM011-Title-1-X, H5.FM011-Title-1-X, H6.FM011-Title-1-X {
+	display: block;
+	text-align: left;
+	text-indent: 3.000000pt;
+	margin-top: 4.000000pt;
+	margin-bottom: 4.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: bold;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+H1.FM012-Title-2, H2.FM012-Title-2, H3.FM012-Title-2, H4.FM012-Title-2, H5.FM012-Title-2, H6.FM012-Title-2,
+H1.FM012-Title-2-C, H2.FM012-Title-2-C, H3.FM012-Title-2-C, H4.FM012-Title-2-C, H5.FM012-Title-2-C, H6.FM012-Title-2-C,
+H1.FM012-Title-2-R, H2.FM012-Title-2-R, H3.FM012-Title-2-R, H4.FM012-Title-2-R, H5.FM012-Title-2-R, H6.FM012-Title-2-R,
+H1.FM012-Title-2-X, H2.FM012-Title-2-X, H3.FM012-Title-2-X, H4.FM012-Title-2-X, H5.FM012-Title-2-X, H6.FM012-Title-2-X {
+	display: block;
+	text-align: left;
+	text-indent: 6.000000pt;
+	margin-top: 4.000000pt;
+	margin-bottom: 4.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: bold;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+H1.FM013-Title-3, H2.FM013-Title-3, H3.FM013-Title-3, H4.FM013-Title-3, H5.FM013-Title-3, H6.FM013-Title-3,
+H1.FM013-Title-3-C, H2.FM013-Title-3-C, H3.FM013-Title-3-C, H4.FM013-Title-3-C, H5.FM013-Title-3-C, H6.FM013-Title-3-C,
+H1.FM013-Title-3-R, H2.FM013-Title-3-R, H3.FM013-Title-3-R, H4.FM013-Title-3-R, H5.FM013-Title-3-R, H6.FM013-Title-3-R,
+H1.FM013-Title-3-X, H2.FM013-Title-3-X, H3.FM013-Title-3-X, H4.FM013-Title-3-X, H5.FM013-Title-3-X, H6.FM013-Title-3-X {
+	display: block;
+	text-align: left;
+	text-indent: 9.000000pt;
+	margin-top: 4.000000pt;
+	margin-bottom: 4.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: bold;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+H1.FM014-Title-4, H2.FM014-Title-4, H3.FM014-Title-4, H4.FM014-Title-4, H5.FM014-Title-4, H6.FM014-Title-4,
+H1.FM014-Title-4-C, H2.FM014-Title-4-C, H3.FM014-Title-4-C, H4.FM014-Title-4-C, H5.FM014-Title-4-C, H6.FM014-Title-4-C,
+H1.FM014-Title-4-R, H2.FM014-Title-4-R, H3.FM014-Title-4-R, H4.FM014-Title-4-R, H5.FM014-Title-4-R, H6.FM014-Title-4-R,
+H1.FM014-Title-4-X, H2.FM014-Title-4-X, H3.FM014-Title-4-X, H4.FM014-Title-4-X, H5.FM014-Title-4-X, H6.FM014-Title-4-X {
+	display: block;
+	text-align: left;
+	text-indent: 12.000000pt;
+	margin-top: 4.000000pt;
+	margin-bottom: 4.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: bold;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+H1.FM015-Title-5, H2.FM015-Title-5, H3.FM015-Title-5, H4.FM015-Title-5, H5.FM015-Title-5, H6.FM015-Title-5,
+H1.FM015-Title-5-C, H2.FM015-Title-5-C, H3.FM015-Title-5-C, H4.FM015-Title-5-C, H5.FM015-Title-5-C, H6.FM015-Title-5-C,
+H1.FM015-Title-5-R, H2.FM015-Title-5-R, H3.FM015-Title-5-R, H4.FM015-Title-5-R, H5.FM015-Title-5-R, H6.FM015-Title-5-R,
+H1.FM015-Title-5-X, H2.FM015-Title-5-X, H3.FM015-Title-5-X, H4.FM015-Title-5-X, H5.FM015-Title-5-X, H6.FM015-Title-5-X {
+	display: block;
+	text-align: left;
+	text-indent: 15.000000pt;
+	margin-top: 4.000000pt;
+	margin-bottom: 4.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: bold;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+H1.FM016-Title-6, H2.FM016-Title-6, H3.FM016-Title-6, H4.FM016-Title-6, H5.FM016-Title-6, H6.FM016-Title-6,
+H1.FM016-Title-6-C, H2.FM016-Title-6-C, H3.FM016-Title-6-C, H4.FM016-Title-6-C, H5.FM016-Title-6-C, H6.FM016-Title-6-C,
+H1.FM016-Title-6-R, H2.FM016-Title-6-R, H3.FM016-Title-6-R, H4.FM016-Title-6-R, H5.FM016-Title-6-R, H6.FM016-Title-6-R,
+H1.FM016-Title-6-X, H2.FM016-Title-6-X, H3.FM016-Title-6-X, H4.FM016-Title-6-X, H5.FM016-Title-6-X, H6.FM016-Title-6-X {
+	display: block;
+	text-align: left;
+	text-indent: 18.000000pt;
+	margin-top: 4.000000pt;
+	margin-bottom: 4.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: bold;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+H1.FM017-Title-7, H2.FM017-Title-7, H3.FM017-Title-7, H4.FM017-Title-7, H5.FM017-Title-7, H6.FM017-Title-7,
+H1.FM017-Title-7-C, H2.FM017-Title-7-C, H3.FM017-Title-7-C, H4.FM017-Title-7-C, H5.FM017-Title-7-C, H6.FM017-Title-7-C,
+H1.FM017-Title-7-R, H2.FM017-Title-7-R, H3.FM017-Title-7-R, H4.FM017-Title-7-R, H5.FM017-Title-7-R, H6.FM017-Title-7-R,
+H1.FM017-Title-7-X, H2.FM017-Title-7-X, H3.FM017-Title-7-X, H4.FM017-Title-7-X, H5.FM017-Title-7-X, H6.FM017-Title-7-X {
+	display: block;
+	text-align: left;
+	text-indent: 21.000000pt;
+	margin-top: 4.000000pt;
+	margin-bottom: 4.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: bold;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+H1.FM018-Title-8, H2.FM018-Title-8, H3.FM018-Title-8, H4.FM018-Title-8, H5.FM018-Title-8, H6.FM018-Title-8,
+H1.FM018-Title-8-C, H2.FM018-Title-8-C, H3.FM018-Title-8-C, H4.FM018-Title-8-C, H5.FM018-Title-8-C, H6.FM018-Title-8-C,
+H1.FM018-Title-8-R, H2.FM018-Title-8-R, H3.FM018-Title-8-R, H4.FM018-Title-8-R, H5.FM018-Title-8-R, H6.FM018-Title-8-R,
+H1.FM018-Title-8-X, H2.FM018-Title-8-X, H3.FM018-Title-8-X, H4.FM018-Title-8-X, H5.FM018-Title-8-X, H6.FM018-Title-8-X {
+	display: block;
+	text-align: left;
+	text-indent: 24.000000pt;
+	margin-top: 4.000000pt;
+	margin-bottom: 4.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: bold;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM10-Body- {
+	display: block;
+	text-align: justify;
+	text-indent: 0.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: medium;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM100-Body,
+P.FM100-Body-1,
+P.FM100-Body-X,
+P.FM100-Body-Y,
+P.FM100-Body-Z,
+P.FM102-1st-Body,
+P.FM111-1st-Body,
+P.FM111-1st-Body-X,
+P.FM111-1st-Body-Y,
+P.FM111-1st-Body-Z,
+P.FM112-2nd-Body,
+P.FM112-2nd-Body-X,
+P.FM112-2nd-Body-Y,
+P.FM112-2nd-Body-Z,
+P.FM113-3rd-Body,
+P.FM113-3rd-Body-X,
+P.FM113-3rd-Body-Y,
+P.FM113-3rd-Body-Z,
+P.FM114-4th-Body,
+P.FM114-4th-Body-X,
+P.FM114-4th-Body-Y,
+P.FM114-4th-Body-Z,
+P.FM115-5th-Body,
+P.FM115-5th-Body-X,
+P.FM115-5th-Body-Y,
+P.FM115-5th-Body-Z,
+P.FM116-6th-Body,
+P.FM116-6th-Body-X,
+P.FM116-6th-Body-Y,
+P.FM116-6th-Body-Z {
+	display: block;
+	text-align: left;
+	text-indent: 20.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: medium;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM101-Body-B,
+P.FM101-Body-X-B,
+P.FM101-Body-Y-B,
+P.FM101-Body-Z-B {
+	display: block;
+	text-align: left;
+	text-indent: 20.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: bold;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM102-Body-I,
+P.FM102-Body-X-I,
+P.FM102-Body-Y-I,
+P.FM102-Body-Z-I {
+	display: block;
+	text-align: left;
+	text-indent: 20.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: medium;
+	font-style: Italic;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM103-Body-B-I,
+P.FM103-Body-X-B-I,
+P.FM103-Body-Y-B-I,
+P.FM103-Body-Z-B-I {
+	display: block;
+	text-align: left;
+	text-indent: 20.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: Bold;
+	font-style: Italic;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM131-1st-Bullet-Body,
+P.FM132-2nd-Bullet-Body,
+P.FM133-3rd-Bullet-Body,
+P.FM134-4th-Bullet-Body,
+P.FM135-5th-Bullet-Body,
+P.FM136-6th-Bullet-Body,
+P.FM140-Dash-Body,
+P.FM151-1st-Dash-Body,
+P.FM152-2nd-Dash-Body,
+P.FM153-3rd-Dash-Body,
+P.FM154-4th-Dash-Body,
+P.FM155-5th-Dash-Body,
+P.FM156-6th-Dash-Body,
+P.FM160-Symbol-Body,
+P.FM171-1st-Symbol-Body,
+P.FM172-2nd-Symbol-Body,
+P.FM173-3rd-Symbol-Body,
+P.FM174-4th-Symbol-Body,
+P.FM175-5th-Symbol-Body,
+P.FM176-6th-Symbol-Body {
+	display: block;
+	text-align: left;
+	text-indent: 35.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: medium;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM121-Bullet-Body-B,
+P.FM141-Dash-Body-B,
+P.FM161-Symbol-Body-B {
+	display: block;
+	text-align: left;
+	text-indent: 35.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: Bold;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM122-Bullet-Body-I,
+P.FM142-Dash-Body-I,
+P.FM162-Symbol-Body-I {
+	display: block;
+	text-align: left;
+	text-indent: 35.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: medium;
+	font-style: Italic;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM123-Bullet-Body-B-I,
+P.FM143-Dash-Body-B-I,
+P.FM163-Symbol-Body-B-I {
+	display: block;
+	text-align: left;
+	text-indent: 35.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: Bold;
+	font-style: Italic;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM20-Num- {
+	display: block;
+	text-align: justify;
+	text-indent: 0.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: medium;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM122-Body-Num-1,
+P.FM123-Body-Num-N-,
+P.FM200-Num-1,
+P.FM200-Num-1-,
+P.FM211-1st-Num-1,
+P.FM211-1st-Num-1-,
+P.FM212-2nd-Num-1,
+P.FM212-2nd-Num-1-,
+P.FM213-3rd-Num-1,
+P.FM213-3rd-Num-1-,
+P.FM214-4th-Num-1,
+P.FM214-4th-Num-1-,
+P.FM220-Num-a,
+P.FM220-Num-a-,
+P.FM231-1st-Num-a,
+P.FM231-1st-Num-a-,
+P.FM232-2nd-Num-a,
+P.FM232-2nd-Num-a-,
+P.FM233-3rd-Num-a,
+P.FM233-3rd-Num-a-,
+P.FM234-4th-Num-a,
+P.FM234-4th-Num-a-,
+P.FM240-Num-A,
+P.FM240-Num-A-,
+P.FM251-1st-Num-A,
+P.FM251-1st-Num-A-,
+P.FM252-2nd-Num-A,
+P.FM252-2nd-Num-A-,
+P.FM253-3rd-Num-A,
+P.FM253-3rd-Num-A-,
+P.FM254-4th-Num-A,
+P.FM254-4th-Num-A-,
+P.FM260-Num-X,
+P.FM260-Num-X-,
+P.FM271-1st-Num-X,
+P.FM271-1st-Num-X-,
+P.FM272-2nd-Num-X,
+P.FM272-2nd-Num-X-,
+P.FM273-3rd-Num-X,
+P.FM273-3rd-Num-X-,
+P.FM274-4th-Num-X,
+P.FM274-4th-Num-X-,
+P.FM280-Num-Y,
+P.FM280-Num-Y-,
+P.FM291-1st-Num-Y,
+P.FM291-1st-Num-Y-,
+P.FM292-2nd-Num-Y,
+P.FM292-2nd-Num-Y-,
+P.FM293-3rd-Num-Y,
+P.FM293-3rd-Num-Y-,
+P.FM294-4th-Num-Y,
+P.FM294-4th-Num-Y-,
+P.FM300-Num-Z,
+P.FM300-Num-Z-,
+P.FM311-1st-Num-Z,
+P.FM311-1st-Num-Z-,
+P.FM312-2nd-Num-Z,
+P.FM312-2nd-Num-Z-,
+P.FM313-3rd-Num-Z,
+P.FM313-3rd-Num-Z-,
+P.FM314-4th-Num-Z,
+P.FM314-4th-Num-Z- {
+	display: block;
+	text-align: left;
+	text-indent: 30.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: medium;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM201-Num-1-B,
+P.FM201-Num-1-B,
+P.FM221-Num-a-B,
+P.FM221-Num-a-B,
+P.FM241-Num-A-B,
+P.FM241-Num-A-B-,
+P.FM261-Num-X-B,
+P.FM261-Num-X-B,
+P.FM281-Num-Y-B,
+P.FM281-Num-Y-B,
+P.FM301-Num-Z-B,
+P.FM301-Num-Z-B {
+	display: block;
+	text-align: left;
+	text-indent: 30.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: Bold;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM301-Caution,
+P.FM302-Notice {
+	display: block;
+	text-align: left;
+	text-indent: 10.000000pt;
+	margin-top: 4.000000pt;
+	margin-bottom: 4.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: Bold;
+	font-style: Regular;
+	color: #ff0000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM202-Num-1-I,
+P.FM202-Num-1-I,
+P.FM222-Num-a-I,
+P.FM222-Num-a-I,
+P.FM242-Num-A-I,
+P.FM242-Num-A-I,
+P.FM262-Num-X-I,
+P.FM262-Num-X-I,
+P.FM282-Num-Y-I,
+P.FM282-Num-Y-I,
+P.FM302-Num-Z-I,
+P.FM302-Num-Z-I {
+	display: block;
+	text-align: left;
+	text-indent: 30.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: medium;
+	font-style: Italic;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM203-Num-1-B-I,
+P.FM203-Num-1-B-I,
+P.FM223-Num-a-B-I,
+P.FM223-Num-a-B-I,
+P.FM243-Num-A-B-I,
+P.FM243-Num-A-B-I,
+P.FM263-Num-X-B-I,
+P.FM263-Num-X-B-I,
+P.FM283-Num-Y-B-I,
+P.FM283-Num-Y-B-I,
+P.FM303-Num-Z-B-I,
+P.FM303-Num-Z-B-I {
+	display: block;
+	text-align: left;
+	text-indent: 30.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: Bold;
+	font-style: Italic;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM40-Table-Title- {
+	display: block;
+	text-align: justify;
+	text-indent: 0.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: medium;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+H1.FM400-Table-Title-0, H2.FM400-Table-Title-0, H3.FM400-Table-Title-0, H4.FM400-Table-Title-0, H5.FM400-Table-Title-0, H6.FM400-Table-Title-0,
+H1.FM400-Table-Title-0-C, H2.FM400-Table-Title-0-C, H3.FM400-Table-Title-0-C, H4.FM400-Table-Title-0-C, H5.FM400-Table-Title-0-C, H6.FM400-Table-Title-0-C,
+H1.FM400-Table-Title-0-R, H2.FM400-Table-Title-0-R, H3.FM400-Table-Title-0-R, H4.FM400-Table-Title-0-R, H5.FM400-Table-Title-0-R, H6.FM400-Table-Title-0-R,
+H1.FM400-Table-Title-0-X, H2.FM400-Table-Title-0-X, H3.FM400-Table-Title-0-X, H4.FM400-Table-Title-0-X, H5.FM400-Table-Title-0-X, H6.FM400-Table-Title-0-X,
+H1.FM405-Table-Title-5, H2.FM405-Table-Title-5, H3.FM405-Table-Title-5, H4.FM405-Table-Title-5, H5.FM405-Table-Title-5, H6.FM405-Table-Title-5,
+H1.FM405-Table-Title-5-C, H2.FM405-Table-Title-5-C, H3.FM405-Table-Title-5-C, H4.FM405-Table-Title-5-C, H5.FM405-Table-Title-5-C, H6.FM405-Table-Title-5-C,
+H1.FM405-Table-Title-5-R, H2.FM405-Table-Title-5-R, H3.FM405-Table-Title-5-R, H4.FM405-Table-Title-5-R, H5.FM405-Table-Title-5-R, H6.FM405-Table-Title-5-R,
+H1.FM405-Table-Title-5-X, H2.FM405-Table-Title-5-X, H3.FM405-Table-Title-5-X, H4.FM405-Table-Title-5-X, H5.FM405-Table-Title-5-X, H6.FM405-Table-Title-5-X,
+H1.FM406-Table-Title-6, H2.FM406-Table-Title-6, H3.FM406-Table-Title-6, H4.FM406-Table-Title-6, H5.FM406-Table-Title-6, H6.FM406-Table-Title-6,
+H1.FM406-Table-Title-6-C, H2.FM406-Table-Title-6-C, H3.FM406-Table-Title-6-C, H4.FM406-Table-Title-6-C, H5.FM406-Table-Title-6-C, H6.FM406-Table-Title-6-C,
+H1.FM406-Table-Title-6-R, H2.FM406-Table-Title-6-R, H3.FM406-Table-Title-6-R, H4.FM406-Table-Title-6-R, H5.FM406-Table-Title-6-R, H6.FM406-Table-Title-6-R,
+H1.FM406-Table-Title-6-X, H2.FM406-Table-Title-6-X, H3.FM406-Table-Title-6-X, H4.FM406-Table-Title-6-X, H5.FM406-Table-Title-6-X, H6.FM406-Table-Title-6-X,
+H1.FM407-Table-Title-7, H2.FM407-Table-Title-7, H3.FM407-Table-Title-7, H4.FM407-Table-Title-7, H5.FM407-Table-Title-7, H6.FM407-Table-Title-7,
+H1.FM407-Table-Title-7-C, H2.FM407-Table-Title-7-C, H3.FM407-Table-Title-7-C, H4.FM407-Table-Title-7-C, H5.FM407-Table-Title-7-C, H6.FM407-Table-Title-7-C,
+H1.FM407-Table-Title-7-R, H2.FM407-Table-Title-7-R, H3.FM407-Table-Title-7-R, H4.FM407-Table-Title-7-R, H5.FM407-Table-Title-7-R, H6.FM407-Table-Title-7-R,
+H1.FM407-Table-Title-7-X, H2.FM407-Table-Title-7-X, H3.FM407-Table-Title-7-X, H4.FM407-Table-Title-7-X, H5.FM407-Table-Title-7-X, H6.FM407-Table-Title-7-X,
+H1.FM408-Table-Title-8, H2.FM408-Table-Title-8, H3.FM408-Table-Title-8, H4.FM408-Table-Title-8, H5.FM408-Table-Title-8, H6.FM408-Table-Title-8,
+H1.FM408-Table-Title-8-C, H2.FM408-Table-Title-8-C, H3.FM408-Table-Title-8-C, H4.FM408-Table-Title-8-C, H5.FM408-Table-Title-8-C, H6.FM408-Table-Title-8-C,
+H1.FM408-Table-Title-8-R, H2.FM408-Table-Title-8-R, H3.FM408-Table-Title-8-R, H4.FM408-Table-Title-8-R, H5.FM408-Table-Title-8-R, H6.FM408-Table-Title-8-R,
+H1.FM408-Table-Title-8-X, H2.FM408-Table-Title-8-X, H3.FM408-Table-Title-8-X, H4.FM408-Table-Title-8-X, H5.FM408-Table-Title-8-X, H6.FM408-Table-Title-8-X {
+	display: block;
+	text-align: left;
+	text-indent: 4.000000pt;
+	margin-top: 4.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: Bold;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FMCellHeading,
+P.FM202-TableHead-CB,
+P.FM205-TableHead-R,
+P.FM200-TableHead-C,
+P.FM204-TableHead-L {
+	display: block;
+	text-align: center;
+	text-indent: 0.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: Bold;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "Arial";
+}
+P.FM410-Table-Head-0,
+P.FM410-Table-Head-0-X,
+P.FM411-Table-Head-1,
+P.FM411-Table-Head-1-X,
+P.FM412-Table-Head-2,
+P.FM412-Table-Head-2-X,
+P.FM413-Table-Head-3,
+P.FM413-Table-Head-3-X,
+P.FM414-Table-Head-4,
+P.FM414-Table-Head-4-X,
+P.FM415-Table-Head-5,
+P.FM415-Table-Head-5-X,
+P.FM416-Table-Head-6,
+P.FM416-Table-Head-6-X,
+P.FM417-Table-Head-7,
+P.FM417-Table-Head-7-X,
+P.FM418-Table-Head-8,
+P.FM418-Table-Head-8-X {
+	display: block;
+	text-align: left;
+	text-indent: 0.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: Bold;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "Arial Narrow";
+}
+P.FM410-Table-Head-0-C,
+P.FM411-Table-Head-1-C,
+P.FM412-Table-Head-2-C,
+P.FM413-Table-Head-3-C,
+P.FM414-Table-Head-4-C,
+P.FM415-Table-Head-5-C,
+P.FM416-Table-Head-6-C,
+P.FM417-Table-Head-7-C,
+P.FM418-Table-Head-8-C {
+	display: block;
+	text-align: center;
+	text-indent: 0.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: Bold;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "Arial Narrow";
+}
+P.FM410-Table-Head-0-R,
+P.FM411-Table-Head-1-R,
+P.FM412-Table-Head-2-R,
+P.FM413-Table-Head-3-R,
+P.FM414-Table-Head-4-R,
+P.FM415-Table-Head-5-R,
+P.FM416-Table-Head-6-R,
+P.FM417-Table-Head-7-R,
+P.FM418-Table-Head-8-R {
+	display: block;
+	text-align: right;
+	text-indent: 0.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: Bold;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "Arial Narrow";
+}
+P.FM42-Table-Body- {
+	display: block;
+	text-align: justify;
+	text-indent: 0.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: medium;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM206-TableBody-L,
+P.FM420-Table-Body,
+P.FM420-Table-Body-M,
+P.FM420-Table-Body-B,
+P.FM420-Table-Body-X,
+P.FM420-Table-Body-Y,
+P.FM420-Table-Body-Z,
+P.FM431-1st-Table-Body,
+P.FM431-1st-Table-Body-B,
+P.FM431-1st-Table-Body-M,
+P.FM431-1st-Table-Body-X,
+P.FM431-1st-Table-Body-Y,
+P.FM431-1st-Table-Body-Z,
+P.FM432-2nd-Table-Body,
+P.FM432-2nd-Table-Body-B,
+P.FM432-2nd-Table-Body-M,
+P.FM432-2nd-Table-Body-X,
+P.FM432-2nd-Table-Body-Y,
+P.FM432-2nd-Table-Body-Z,
+P.FM433-3rd-Table-Body,
+P.FM433-3rd-Table-Body-B,
+P.FM433-3rd-Table-Body-M,
+P.FM433-3rd-Table-Body-X,
+P.FM433-3rd-Table-Body-Y,
+P.FM433-3rd-Table-Body-Z,
+P.FM434-4th-Table-Body,
+P.FM434-4th-Table-Body-B,
+P.FM434-4th-Table-Body-M,
+P.FM434-4th-Table-Body-X,
+P.FM434-4th-Table-Body-Y,
+P.FM434-4th-Table-Body-Z,
+P.FM435-5th-Table-Body,
+P.FM435-5th-Table-Body-B,
+P.FM435-5th-Table-Body-M,
+P.FM435-5th-Table-Body-X,
+P.FM435-5th-Table-Body-Y,
+P.FM435-5th-Table-Body-Z {
+	display: block;
+	text-align: left;
+	text-indent: 6.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: medium;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM201-TableBody-C,
+P.FM420-Table-Body-C,
+P.FM431-1st-Table-Body-C,
+P.FM432-2nd-Table-Body-C,
+P.FM433-3rd-Table-Body-C,
+P.FM434-4th-Table-Body-C,
+P.FM435-5th-Table-Body-C {
+	display: block;
+	text-align: center;
+	text-indent: 6.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: medium;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM420-Table-Body-R,
+P.FM431-1st-Table-Body-R,
+P.FM432-2nd-Table-Body-R,
+P.FM433-3rd-Table-Body-R,
+P.FM434-4th-Table-Body-R,
+P.FM435-5th-Table-Body-R {
+	display: block;
+	text-align: right;
+	text-indent: 6.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: medium;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM421-Table-Body-B,
+P.FM421-Table-Body-B-B,
+P.FM421-Table-Body-B-M,
+P.FM421-Table-Body-X-B,
+P.FM421-Table-Body-Y-B,
+P.FM421-Table-Body-Z-B {
+	display: block;
+	text-align: left;
+	text-indent: 6.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: Bold;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM421-Table-Body-B-C {
+	display: block;
+	text-align: center;
+	text-indent: 6.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: Bold;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM421-Table-Body-B-R {
+	display: block;
+	text-align: right;
+	text-indent: 6.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: Bold;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM422-Table-Body-I,
+P.FM422-Table-Body-I-B,
+P.FM422-Table-Body-I-M,
+P.FM422-Table-Body-X-I,
+P.FM422-Table-Body-Y-I,
+P.FM422-Table-Body-Z-I {
+	display: block;
+	text-align: left;
+	text-indent: 6.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: medium;
+	font-style: Italic;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM422-Table-Body-I-C {
+	display: block;
+	text-align: center;
+	text-indent: 6.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: medium;
+	font-style: Italic;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM422-Table-Body-I-R {
+	display: block;
+	text-align: right;
+	text-indent: 6.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: medium;
+	font-style: Italic;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM423-Table-Body-B-I,
+P.FM423-Table-Body-B-I-B,
+P.FM423-Table-Body-B-I-M,
+P.FM423-Table-Body-X-B-I,
+P.FM423-Table-Body-Y-B-I,
+P.FM423-Table-Body-Z-B-I {
+	display: block;
+	text-align: left;
+	text-indent: 6.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: Bold;
+	font-style: Italic;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM423-Table-Body-B-I-C {
+	display: block;
+	text-align: center;
+	text-indent: 6.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: Bold;
+	font-style: Italic;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM423-Table-Body-B-I-R {
+	display: block;
+	text-align: right;
+	text-indent: 6.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: Bold;
+	font-style: Italic;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM440-Table-Bullet-Body,
+P.FM451-1st-Table-Bullet-Body,
+P.FM452-2nd-Table-Bullet-Body,
+P.FM453-3rd-Table-Bullet-Body,
+P.FM454-4th-Table-Bullet-Body,
+P.FM455-5th-Table-Bullet-Body,
+P.FM460-Table-Dash-Body,
+P.FM471-1st-Table-Dash-Body,
+P.FM472-2nd-Table-Dash-Body,
+P.FM473-3rd-Table-Dash-Body,
+P.FM474-4th-Table-Dash-Body,
+P.FM475-5th-Table-Dash-Body,
+P.FM480-Table-Symbol-Body,
+P.FM491-1st-Table-Symbol-Body,
+P.FM492-2nd-Table-Symbol-Body,
+P.FM493-3rd-Table-Symbol-Body,
+P.FM494-4th-Table-Symbol-Body,
+P.FM495-5th-Table-Symbol-Body {
+	display: block;
+	text-align: left;
+	text-indent: 18.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: medium;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM441-Table-Bullet-Body-B,
+P.FM461-Table-Dash-Body-B,
+P.FM481-Table-Symbol-Body-B {
+	display: block;
+	text-align: left;
+	text-indent: 18.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: Bold;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM442-Table-Bullet-Body-I,
+P.FM462-Table-Dash-Body-I,
+P.FM482-Table-Symbol-Body-I {
+	display: block;
+	text-align: left;
+	text-indent: 18.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: medium;
+	font-style: Italic;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM443-Table-Bullet-Body-B-I,
+P.FM463-Table-Dash-Body-B-I,
+P.FM483-Table-Symbol-Body-B-I {
+	display: block;
+	text-align: left;
+	text-indent: 18.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: Bold;
+	font-style: Italic;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM50-Table-Num- {
+	display: block;
+	text-align: justify;
+	text-indent: 0.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: medium;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM500-Table-Num-1,
+P.FM500-Table-Num-1-,
+P.FM511-1st-Table-Num-1,
+P.FM511-1st-Table-Num-1-,
+P.FM512-2nd-Table-Num-1,
+P.FM512-2nd-Table-Num-1-,
+P.FM513-3rd-Table-Num-1,
+P.FM513-3rd-Table-Num-1-,
+P.FM520-Table-Num-a,
+P.FM520-Table-Num-a-,
+P.FM531-1st-Table-Num-a,
+P.FM531-1st-Table-Num-a-,
+P.FM532-2nd-Table-Num-a,
+P.FM532-2nd-Table-Num-a-,
+P.FM533-3rd-Table-Num-a,
+P.FM533-3rd-Table-Num-a-,
+P.FM540-Table-Num-A,
+P.FM540-Table-Num-A-,
+P.FM551-1st-Table-Num-A,
+P.FM551-1st-Table-Num-A-,
+P.FM552-2nd-Table-Num-A,
+P.FM552-2nd-Table-Num-A-,
+P.FM553-3rd-Table-Num-A,
+P.FM553-3rd-Table-Num-A-,
+P.FM560-Table-Num-X,
+P.FM560-Table-Num-X-,
+P.FM571-1st-Table-Num-X,
+P.FM571-1st-Table-Num-X-,
+P.FM572-2nd-Table-Num-X,
+P.FM572-2nd-Table-Num-X-,
+P.FM573-3rd-Table-Num-X,
+P.FM573-3rd-Table-Num-X-,
+P.FM580-Table-Num-Y,
+P.FM580-Table-Num-Y-,
+P.FM591-1st-Table-Num-Y,
+P.FM591-1st-Table-Num-Y-,
+P.FM592-2nd-Table-Num-Y,
+P.FM592-2nd-Table-Num-Y-,
+P.FM593-3rd-Table-Num-Y-,
+P.FM593-3rd-Table-NumY,
+P.FM600-Table-Num-Z,
+P.FM600-Table-Num-Z-,
+P.FM611-1st-Table-Num-Z,
+P.FM611-1st-Table-Num-Z-,
+P.FM612-2nd-Table-Num-Z,
+P.FM612-2nd-Table-Num-Z-,
+P.FM613-3rd-Table-Num-Z,
+P.FM613-3rd-Table-Num-Z- {
+	display: block;
+	text-align: left;
+	text-indent: 12.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: medium;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM501-Table-Num-1-B,
+P.FM501-Table-Num-1-B,
+P.FM521-Table-Num-a-B,
+P.FM521-Table-Num-a-B,
+P.FM541-Table-Num-A-B,
+P.FM541-Table-Num-A-B,
+P.FM561-Table-Num-X-B,
+P.FM561-Table-Num-X-B,
+P.FM581-Table-Num-Y-B,
+P.FM581-Table-Num-Y-B,
+P.FM601-Table-Num-Z-B,
+P.FM601-Table-Num-Z-B {
+	display: block;
+	text-align: left;
+	text-indent: 12.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: Bold;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM502-Table-Num-1-I,
+P.FM502-Table-Num-1-I,
+P.FM522-Table-Num-a-I,
+P.FM522-Table-Num-a-I,
+P.FM542-Table-Num-A-I,
+P.FM542-Table-Num-A-I,
+P.FM562-Table-Num-X-I,
+P.FM562-Table-Num-X-I,
+P.FM582-Table-Num-Y-I,
+P.FM582-Table-Num-Y-I,
+P.FM602-Table-Num-Z-I,
+P.FM602-Table-Num-Z-I {
+	display: block;
+	text-align: left;
+	text-indent: 12.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: medium;
+	font-style: Italic;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM503-Table-Num-1-B-I,
+P.FM503-Table-Num-1-B-I,
+P.FM523-Table-Num-a-B-I,
+P.FM523-Table-Num-a-B-I,
+P.FM543-Table-Num-A-B-I,
+P.FM543-Table-Num-A-B-I,
+P.FM563-Table-Num-X-B-I,
+P.FM563-Table-Num-X-B-I,
+P.FM583-Table-Num-Y-B-I,
+P.FM583-Table-Num-Y-B-I,
+P.FM603-Table-Num-Z-B-I,
+P.FM603-Table-Num-Z-B-I {
+	display: block;
+	text-align: left;
+	text-indent: 12.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: Bold;
+	font-style: Italic;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM70-Prefix-Suffix- {
+	display: block;
+	text-align: justify;
+	text-indent: 0.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: medium;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM700-Caution,
+P.FM700-Caution-A {
+	display: block;
+	text-align: left;
+	text-indent: 10.000000pt;
+	margin-top: 4.000000pt;
+	margin-bottom: 4.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: medium;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM700-Caution-B {
+	display: block;
+	text-align: left;
+	text-indent: 10.000000pt;
+	margin-top: 4.000000pt;
+	margin-bottom: 4.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: Bold;
+	font-style: Regular;
+	color: #ff0000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM700-Caution-B-I {
+	display: block;
+	text-align: left;
+	text-indent: 10.000000pt;
+	margin-top: 4.000000pt;
+	margin-bottom: 4.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: Bold;
+	font-style: Italic;
+	color: #ff0000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM700-Caution-I {
+	display: block;
+	text-align: left;
+	text-indent: 10.000000pt;
+	margin-top: 4.000000pt;
+	margin-bottom: 4.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: medium;
+	font-style: Italic;
+	color: #ff0000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM701-Note,
+P.FM701-Note-A {
+	display: block;
+	text-align: left;
+	text-indent: 10.000000pt;
+	margin-top: 4.000000pt;
+	margin-bottom: 4.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: medium;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM701-Note-B {
+	display: block;
+	text-align: left;
+	text-indent: 10.000000pt;
+	margin-top: 4.000000pt;
+	margin-bottom: 4.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: Bold;
+	font-style: Regular;
+	color: #00ffff;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM701-Note-B-I {
+	display: block;
+	text-align: left;
+	text-indent: 10.000000pt;
+	margin-top: 4.000000pt;
+	margin-bottom: 4.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: Bold;
+	font-style: Italic;
+	color: #00ffff;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM701-Note-I {
+	display: block;
+	text-align: left;
+	text-indent: 10.000000pt;
+	margin-top: 4.000000pt;
+	margin-bottom: 4.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: medium;
+	font-style: Italic;
+	color: #00ffff;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM702-Notice,
+P.FM702-Notice-A {
+	display: block;
+	text-align: left;
+	text-indent: 10.000000pt;
+	margin-top: 4.000000pt;
+	margin-bottom: 4.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: medium;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM702-Notice-B {
+	display: block;
+	text-align: left;
+	text-indent: 10.000000pt;
+	margin-top: 4.000000pt;
+	margin-bottom: 4.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: Bold;
+	font-style: Regular;
+	color: #804000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM702-Notice-B-I {
+	display: block;
+	text-align: left;
+	text-indent: 10.000000pt;
+	margin-top: 4.000000pt;
+	margin-bottom: 4.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: Bold;
+	font-style: Italic;
+	color: #804000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM702-Notice-I {
+	display: block;
+	text-align: left;
+	text-indent: 10.000000pt;
+	margin-top: 4.000000pt;
+	margin-bottom: 4.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: medium;
+	font-style: Italic;
+	color: #804000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM703-Important,
+P.FM703-Important-A {
+	display: block;
+	text-align: left;
+	text-indent: 10.000000pt;
+	margin-top: 4.000000pt;
+	margin-bottom: 4.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: medium;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM703-Important-B {
+	display: block;
+	text-align: left;
+	text-indent: 10.000000pt;
+	margin-top: 4.000000pt;
+	margin-bottom: 4.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: Bold;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM703-Important-B-I {
+	display: block;
+	text-align: left;
+	text-indent: 10.000000pt;
+	margin-top: 4.000000pt;
+	margin-bottom: 4.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: Bold;
+	font-style: Italic;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM703-Important-I {
+	display: block;
+	text-align: left;
+	text-indent: 10.000000pt;
+	margin-top: 4.000000pt;
+	margin-bottom: 4.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: medium;
+	font-style: Italic;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM704-Tighten,
+P.FM704-Tighten-A,
+P.FM705-Tighten-1,
+P.FM705-Tighten-1-A {
+	display: block;
+	text-align: left;
+	text-indent: 10.000000pt;
+	margin-top: 4.000000pt;
+	margin-bottom: 4.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: medium;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM704-Tighten-B,
+P.FM705-Tighten-1-B {
+	display: block;
+	text-align: left;
+	text-indent: 10.000000pt;
+	margin-top: 4.000000pt;
+	margin-bottom: 4.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: Bold;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM704-Tighten-B-I,
+P.FM705-Tighten-1-B-I {
+	display: block;
+	text-align: left;
+	text-indent: 10.000000pt;
+	margin-top: 4.000000pt;
+	margin-bottom: 4.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: Bold;
+	font-style: Italic;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM704-Tighten-I,
+P.FM705-Tighten-1-I {
+	display: block;
+	text-align: left;
+	text-indent: 10.000000pt;
+	margin-top: 4.000000pt;
+	margin-bottom: 4.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: medium;
+	font-style: Italic;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM721-PS-1,
+P.FM721-PS-A,
+P.FM721-PS-a,
+P.FM722-PS-2,
+P.FM722-PS-B,
+P.FM722-PS-b,
+P.FM723-PS-3,
+P.FM723-PS-C,
+P.FM723-PS-c,
+P.FM734-PS-4,
+P.FM734-PS-X,
+P.FM734-PS-x,
+P.FM735-PS-5,
+P.FM735-PS-Y,
+P.FM735-PS-y,
+P.FM736-PS-6,
+P.FM736-PS-Z,
+P.FM736-PS-z {
+	display: block;
+	text-align: left;
+	text-indent: 10.000000pt;
+	margin-top: 4.000000pt;
+	margin-bottom: 4.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: medium;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM75-Insert-Break- {
+	display: block;
+	text-align: justify;
+	text-indent: 0.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: medium;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM750-Page-Break,
+P.FM750-Page-Break-G,
+P.FM751-Column-Break,
+P.FM751-Column-Break-G,
+P.FM752-Insert-All,
+P.FM752-Insert-All-G,
+P.FM753-Insert-Column,
+P.FM753-Insert-Column-G,
+P.FM754-Line-1,
+P.FM754-Line-A,
+P.FM755-Line-2,
+P.FM755-Line-B,
+P.FM756-Line-3,
+P.FM756-Line-C,
+P.FM757-Line-4,
+P.FM757-Line-X,
+P.FM758-Line-5,
+P.FM758-Line-Y,
+P.FM759-Line-6,
+P.FM759-Line-Z,
+P.FM761-Break-1,
+P.FM761-Break-A,
+P.FM762-Break-2,
+P.FM762-Break-B,
+P.FM763-Break-3,
+P.FM763-Break-C,
+P.FM771-Insert-1,
+P.FM771-Insert-A,
+P.FM772-Insert-2,
+P.FM772-Insert-B,
+P.FM773-Insert-3,
+P.FM773-Insert-C,
+P.FM791-Graphic-Text-L,
+P.FM791-Graphic-Text-L-X,
+P.FM792-Graphic-Text-C,
+P.FM792-Graphic-Text-C-X,
+P.FM793-Graphic-Text-R,
+P.FM793-Graphic-Text-R-X,
+P.FM80-Header-Footer-,
+P.FM801-Header-1,
+P.FM801-Header-1-C,
+P.FM801-Header-1-R,
+P.FM801-Header-1-X,
+P.FM801-Header-1-Y,
+P.FM801-Header-1-Z,
+P.FM802-Header-2,
+P.FM802-Header-2-C,
+P.FM802-Header-2-R,
+P.FM802-Header-2-X,
+P.FM802-Header-2-Y,
+P.FM802-Header-2-Z,
+P.FM803-Header-3,
+P.FM803-Header-3-C,
+P.FM803-Header-3-R,
+P.FM803-Header-3-X,
+P.FM803-Header-3-Y,
+P.FM803-Header-3-Z,
+P.FM804-Header-4,
+P.FM804-Header-4-C,
+P.FM804-Header-4-R,
+P.FM804-Header-4-X,
+P.FM804-Header-4-Y,
+P.FM804-Header-4-Z,
+P.FM805-Header-5,
+P.FM805-Header-5-C,
+P.FM805-Header-5-R,
+P.FM805-Header-5-X,
+P.FM805-Header-5-Y,
+P.FM805-Header-5-Z,
+P.FM811-Footer-1,
+P.FM811-Footer-1-C,
+P.FM811-Footer-1-R,
+P.FM811-Footer-1-X,
+P.FM811-Footer-1-Y,
+P.FM811-Footer-1-Z,
+P.FM812-Footer-2,
+P.FM812-Footer-2-C,
+P.FM812-Footer-2-R,
+P.FM812-Footer-2-X,
+P.FM812-Footer-2-Y,
+P.FM812-Footer-2-Z,
+P.FM813-Footer-3,
+P.FM813-Footer-3-C,
+P.FM813-Footer-3-R,
+P.FM813-Footer-3-X,
+P.FM813-Footer-3-Y,
+P.FM813-Footer-3-Z,
+P.FM814-Footer-4,
+P.FM814-Footer-4-C,
+P.FM814-Footer-4-R,
+P.FM814-Footer-4-X,
+P.FM814-Footer-4-Y,
+P.FM814-Footer-4-Z,
+P.FM815-Footer-5,
+P.FM815-Footer-5-C,
+P.FM815-Footer-5-R,
+P.FM815-Footer-5-X,
+P.FM815-Footer-5-Y,
+P.FM815-Footer-5-Z {
+	display: block;
+	text-align: left;
+	text-indent: 0.000000pt;
+	margin-top: 20.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 10.000000pt;
+	font-weight: medium;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM85-TOC- {
+	display: block;
+	text-align: justify;
+	text-indent: 0.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: medium;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM90-Custom- {
+	display: block;
+	text-align: justify;
+	text-indent: 0.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: medium;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM900-Custom-0,
+P.FM901-Custom-1,
+P.FM902-Custom-2,
+P.FM903-Custom-3,
+P.FM904-Custom-4,
+P.FM905-Custom-5,
+P.FM906-Custom-6,
+P.FM907-Custom-7,
+P.FM908-Custom-8,
+P.FM909-Custom-9,
+P.FM911-Custom-a,
+P.FM911-Custom-A,
+P.FM912-Custom-B,
+P.FM912-Custom-b,
+P.FM913-Custom-c,
+P.FM913-Custom-C,
+P.FM924-Custom-X,
+P.FM924-Custom-x,
+P.FM925-Custom-Y,
+P.FM925-Custom-y,
+P.FM926-Custom-z,
+P.FM926-Custom-Z {
+	display: block;
+	text-align: left;
+	text-indent: 20.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: medium;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM900-Custom-0-B,
+P.FM901-Custom-1-B,
+P.FM902-Custom-2-B,
+P.FM903-Custom-3-B,
+P.FM904-Custom-4-B,
+P.FM905-Custom-5-B,
+P.FM906-Custom-6-B,
+P.FM907-Custom-7-B,
+P.FM908-Custom-8-B,
+P.FM909-Custom-9-B,
+P.FM911-Custom-A-B,
+P.FM911-Custom-a-B,
+P.FM912-Custom-b-B,
+P.FM912-Custom-B-B,
+P.FM913-Custom-C-B,
+P.FM913-Custom-c-B,
+P.FM924-Custom-X-B,
+P.FM924-Custom-x-B,
+P.FM925-Custom-y-B,
+P.FM925-Custom-Y-B,
+P.FM926-Custom-z-B,
+P.FM926-Custom-Z-B {
+	display: block;
+	text-align: left;
+	text-indent: 20.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: medium;
+	font-style: Bold;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM900-Custom-0-B-I,
+P.FM901-Custom-1-B-I,
+P.FM902-Custom-2-B-I,
+P.FM903-Custom-3-B-I,
+P.FM904-Custom-4-B-I,
+P.FM905-Custom-5-B-I,
+P.FM906-Custom-6-B-I,
+P.FM907-Custom-7-B-I,
+P.FM908-Custom-8-B-I,
+P.FM909-Custom-9-B-I,
+P.FM911-Custom-a-B-I,
+P.FM911-Custom-A-B-I,
+P.FM912-Custom-b-B-I,
+P.FM912-Custom-B-B-I,
+P.FM913-Custom-c-B-I,
+P.FM913-Custom-C-B-I,
+P.FM924-Custom-X-B-I,
+P.FM924-Custom-x-B-I,
+P.FM925-Custom-Y-B-I,
+P.FM925-Custom-y-B-I,
+P.FM926-Custom-Z-B-I,
+P.FM926-Custom-z-B-I {
+	display: block;
+	text-align: left;
+	text-indent: 20.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: Bold;
+	font-style: Italic;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM900-Custom-0-C,
+P.FM901-Custom-1-C,
+P.FM902-Custom-2-C,
+P.FM903-Custom-3-C,
+P.FM904-Custom-4-C,
+P.FM905-Custom-5-C,
+P.FM906-Custom-6-C,
+P.FM907-Custom-7-C,
+P.FM908-Custom-8-C,
+P.FM909-Custom-9-C,
+P.FM911-Custom-a-C,
+P.FM911-Custom-A-C,
+P.FM912-Custom-b-C,
+P.FM912-Custom-B-C,
+P.FM913-Custom-c-C,
+P.FM913-Custom-C-C,
+P.FM924-Custom-x-C,
+P.FM924-Custom-X-C,
+P.FM925-Custom-Y-C,
+P.FM925-Custom-y-C,
+P.FM926-Custom-Z-C,
+P.FM926-Custom-z-C {
+	display: block;
+	text-align: center;
+	text-indent: 20.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: medium;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM900-Custom-0-I,
+P.FM901-Custom-1-I,
+P.FM902-Custom-2-I,
+P.FM903-Custom-3-I,
+P.FM904-Custom-4-I,
+P.FM905-Custom-5-I,
+P.FM906-Custom-6-I,
+P.FM907-Custom-7-I,
+P.FM908-Custom-8-I,
+P.FM909-Custom-9-I,
+P.FM911-Custom-a-I,
+P.FM911-Custom-A-I,
+P.FM912-Custom-b-I,
+P.FM912-Custom-B-I,
+P.FM913-Custom-c-I,
+P.FM913-Custom-C-I,
+P.FM924-Custom-X-I,
+P.FM924-Custom-x-I,
+P.FM925-Custom-y-I,
+P.FM925-Custom-Y-I,
+P.FM926-Custom-z-I,
+P.FM926-Custom-Z-I {
+	display: block;
+	text-align: left;
+	text-indent: 20.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: medium;
+	font-style: Italic;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM900-Custom-0-R,
+P.FM901-Custom-1-R,
+P.FM902-Custom-2-R,
+P.FM903-Custom-3-R,
+P.FM904-Custom-4-R,
+P.FM905-Custom-5-R,
+P.FM906-Custom-6-R,
+P.FM907-Custom-7-R,
+P.FM908-Custom-8-R,
+P.FM909-Custom-9-R,
+P.FM911-Custom-A-R,
+P.FM911-Custom-a-R,
+P.FM912-Custom-b-R,
+P.FM912-Custom-B-R,
+P.FM913-Custom-C-R,
+P.FM913-Custom-c-R,
+P.FM924-Custom-x-R,
+P.FM924-Custom-X-R,
+P.FM925-Custom-Y-R,
+P.FM925-Custom-y-R,
+P.FM926-Custom-z-R,
+P.FM926-Custom-Z-R {
+	display: block;
+	text-align: right;
+	text-indent: 20.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: medium;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM95-Other- {
+	display: block;
+	text-align: justify;
+	text-indent: 0.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: medium;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM952-Author {
+	display: block;
+	text-align: left;
+	text-indent: 0.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: medium;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM953-Date {
+	display: block;
+	text-align: left;
+	text-indent: 0.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: medium;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM954-Time {
+	display: block;
+	text-align: left;
+	text-indent: 0.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: medium;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM961-Footnote {
+	display: block;
+	text-align: left;
+	text-indent: 0.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: medium;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM962-Table-Footnote {
+	display: block;
+	text-align: left;
+	text-indent: 0.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: medium;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.FM99-End- {
+	display: block;
+	text-align: left;
+	text-indent: 0.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 8.000000pt;
+	font-weight: medium;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "Arial Narrow";
+}
+P.Mapping-Table-Cell {
+	display: block;
+	text-align: left;
+	text-indent: 0.000000pt;
+	margin-top: 2.000000pt;
+	margin-bottom: 2.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: medium;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+P.Mapping-Table-Title {
+	display: block;
+	text-align: left;
+	text-indent: 0.000000pt;
+	margin-top: 2.000000pt;
+	margin-bottom: 2.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 14.000000pt;
+	font-weight: medium;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
+LI.FM111-Body-Bullet,
+LI.FM120-Bullet-Body {
+	display: block;
+	text-align: left;
+	text-indent: 20.000000pt;
+	margin-top: 0.000000pt;
+	margin-bottom: 0.000000pt;
+	margin-right: 0.000000pt;
+	margin-left: 0.000000pt;
+	font-size: 12.000000pt;
+	font-weight: medium;
+	font-style: Regular;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: baseline;
+	text-transform: none;
+	font-family: "System";
+}
