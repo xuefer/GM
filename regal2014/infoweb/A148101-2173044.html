@@ -1,0 +1,214 @@
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title></title>
+    <meta name="Generator" content="Arbortext Publishing Engine 5.3 M072">
+    <link rel="stylesheet" href="content.css" charset="UTF-8" type="text/css"></head>
+  <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1">
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; line-height: 1.1; margin-top: 5.00mm; margin-bottom: 5mm; font-size: 13pt; font-family: Arial; margin-top: 1.00mm; " id="styler-id1.1">
+      <span style="color: #000000; font-family: System; font-weight: normal; ">11.1.4.2 </span>数据链路通信的说明与操作</div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.3">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; ">
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">
+          <span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">注意:</span>这是有关GM装置用来彼此通信的不同串行数据总线的概述。用<a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A156662-3439912.html">数据通信示意图</a>找出特定车辆配置的串行数据总线。</div>
+      </div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.4">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.4.1">电路说明</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">车辆内部有很多部件都依赖于来自其它部件的信息并向其它部件传输信息或者两者并存。串行数据通信网络提供了一个可靠的、经济有效的通路，使车辆内的不同部件之间可以互相&#8220;联系&#8221;并分享信息。</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">GM使用大量不同的信息总线以确保装置之间的及时且高效的信息交换。相互比较这些总线，其中一些在速度、信号特性和性能上都有着本质的不同。比如高速GMLAN和低速GMLAN总线。</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">另一方面，比较其它的总线，它们有相似的特性并且完全以并联运行。如此，它们便可用于高交互性的集合部件。比如高速GMLAN、动力传动系统扩展及底盘扩展总线。与所有车辆装置都集中在一条单总线上相比，这使它们能够在信息拥挤度较低的总线上彼此通信，从而确保了更迅速且更及时的信息交换。</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">大多数信息通常出现在局域内特定的网络上；但有些信息则必须与其它网络分享。指定控制模块作为网关，执行在不同总线之间传输信息的功能。网关模块被连接到至少2条总线，并且根据其信息策略和传输模式与各个网络交互。</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">GMLAN使接收装置能够监测来自其它装置的信息传输，以便确定是否未接收到重要信息。主要目的在于用合理的默认值替代无法再被接收的信息。此外，一个装置可能会设置故障诊断码，以指示它所等待提供信息的装置不再进行通信。</div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.5">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.5.1">高速GMLAN电路说明</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">高速GMLAN总线用于需要高速交换数据的地方，以使传感器值的变化情况和通过信息调节车辆系统的控制装置的信息接收状况之间的延迟最小化。</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">高速GMLAN串行数据网由双绞线组成。一个信号电路识别GMLAN高速信号，而另一个信号电路识别GMLAN低速信号。在数据总线的每端，位于GMLAN高速和GMLAN低速电路之间都有一个120欧的终端电阻器。</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">数据符号（1和0）以500千位/秒的速率按顺序传输。总线上传输的数据都通过GMLAN高速信号电压和GMLAN低速信号电压之间电压差来表示。</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">当双线总线静止时，GMLAN高速和GMLAN低速信号电路无法被驱动，这代表逻辑&#8220;1&#8221;。此状态下，两个信号电路的电压同为2.5伏。电压差约为0伏。</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">当传输逻辑&#8220;0&#8221;时，GMLAN高速信号电路被拉高至大约3.5伏，而GMLAN低速电路被拉低至大约1.5伏。电压差约为2.0 (+/- 0.5) 伏。</div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.6">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.6.1">底盘高速GMLAN电路说明</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">GMLAN底盘扩展总线基本上与高速GMLAN总线一致，除了其是用于底盘部件。对并联总线之间的信息拥挤进行拆分可确保及时的信息传输和接收。有时需要在底盘扩展总线和主高速GMLAN总线之间进行通信。这通过将K17电子制动控制模块 (EBCM) 用作网关模块来完成。由于高速GMLAN底盘扩展总线和主高速GMLAN总线的运行方式相同，所以它们各自的诊断也类似。</div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.7">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.7.1">对象高速GMLAN电路说明</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">GMLAN对象总线基本上与高速GMLAN总线相同，但它用于增强型安全系统。此工具用来将增强型安全系统装置之间的繁重通信与其他车辆总线隔离，从而降低拥挤度。K124主动安全控制模块连接至对象总线以及主高速GMLAN总线、底盘扩展总线和低速GMLAN总线。K124主动安全控制模块充当对象总线装置和其他车辆总线上的装置之间的所有所需通信的网关模块。GMLAN对象总线的运行方式与底盘扩展和主高速总线相同，因此诊断也类似。对象总线在物理上被划分为前对象总线和后对象总线，每个部分都具有自己的通信启用电路以激活该部分，但两个部分的功能操作是相同的。前对象总线的标准装置是K124主动安全控制模块、K109前视摄像头模块和B233B远距离雷达传感器模块。前对象总线的选装装置是B233LF左前近距离雷达传感器模块和B233RF右前近距离雷达传感器模块。后对象总线是选装件，当存在时，该总线上将有K124主动安全控制模块和B233R后短距离雷达传感器模块，并且可选装右后短距离雷达传感器模块。除了直接由蓄电池供电的K109前视摄像头模块之外，所有对象总线部件都由K124主动安全控制模块通过通信启用电路供电。</div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.8">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.8.1">媒体导向系统传输 (MOST) 电路说明</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">媒体导向系统传输信息娱乐系统网络是独立于GMLAN的专用高速多媒体数据流总线。媒体导向系统传输总线将被配置成物理硬线回路，总线内的每个装置都按设定的顺序在指定的媒体导向系统传输地址上发送和接收数据。媒体导向系统传输总线上的每个装置都需要有双绞铜线（2条TX发送线路，2条RX接收线路，和1条电子控制线路，即12伏唤醒信号线路）。A11收音机是媒体导向系统传输主控装置，并且将监测总线上的车辆配置、信息娱乐系统数据信息和错误。媒体导向系统传输初始化包括电子控制线路（或媒体导向系统传输控制线路）上的一个100毫秒低电压短脉冲，该线路连接至媒体导向系统传输环路所包含的所有装置。各装置一旦接收到此唤醒信息，首先将以一个通用装置响应作出响应。一旦向A11收音机成功无误地报告了媒体导向系统传输总线上的这些初始响应，第二个数据请求就将记录媒体导向系统传输装置的地址、功能要求和能力范围。此时，A11收音机将读入此信息并记录媒体导向系统传输总线上的地址节点次序。此节点地址列表现在将在A11收音机内被存储为媒体导向系统传输总线配置（在故障诊断仪数据显示屏幕上的名称为&#8220;Last Working MOST ID of Node 1-9（最近工作的媒体导向系统传输节点识别号1-9）&#8221;）。</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">当检测到媒体导向系统传输接收、发送或控制线路故障时，将不能根据唤醒请求按预期接收到发送/接收信息。然后，A11收音机和K74人机界面控制模块将执行诊断以隔离这些媒体导向系统传输故障。如果媒体导向系统传输控制线路对0伏低电压短路并持续过长的时间，A11收音机将设置U2098故障诊断码且K74人机界面控制模块将设置U0029 02故障诊断码。此时，媒体导向系统传输总线将无法进行通信，直到媒体导向系统传输控制线路短路被修复。</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">一旦通过媒体导向系统传输控制线路短路诊断，A11收音机就将尝试在媒体导向系统传输控制线路上重新发送初始短脉冲冲击多达3次。如果未收到预期的响应，A11收音机将继续保持设置了U0028故障诊断码的故障模式，并且将继续发送一个300毫秒长脉冲，此脉冲将使最远的上游发送装置能够在此媒体导向系统传输故障/诊断模式中成为代用媒体导向系统传输主控装置。当A11收音机接收到此新媒体导向系统传输主控装置的识别号时，可以根据故障诊断仪数据参数&#8220;Surrogate MOST Master Node Upstream Position（代用媒体导向系统传输主控装置节点上游位置）&#8221;来识别代用媒体导向系统传输主控装置。应使用故障诊断仪，利用A11收音机数据显示屏幕中的&#8220;Last Working MOST ID of Node 1-9（最近工作的媒体导向系统传输节点识别号1-9）&#8221;参数确定媒体导向系统传输总线的配置和方向。当存在故障时，其将显示从A11收音机中新启用的&#8220;Surrogate MOST Master Node Upstream Position（代用媒体导向系统传输主控装置节点上游位置）&#8221;。这将有助于确定媒体导向系统传输总线/控制的故障位置。此时，代用媒体导向系统传输主控装置、发送、接收或控制线路上游的媒体导向系统传输装置将是诊断的可疑区域。这些故障可能与任何媒体导向系统传输发送、接收或控制线路双绞铜线有关，或者可能是装置内部故障。</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">在一次尝试后，当K74人机界面控制模块诊断出一条媒体导向系统传输总线不能正确通信时，其将设置U0029 00故障诊断码。当K74人机界面控制模块设置了DTC U0029 00而A11收音机未设置相应的DTC U0028时，这表明存在间歇性线路/装置故障。</div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.9">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.9.1">CAN图形接口 (CGI) 电路说明</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">该总线主要由娱乐子系统用来在A11收音机和P17信息显示模块和/或收音机/HVAC控制装置之间传送高速显示图形。CAN图形接口 (CGI) 总线的电气特性与高速GMLAN总线非常相似。但采用的信息策略和信息结构不同。有时需要在CAN图形接口总线和低速GMLAN总线之间进行通信。这通过将A11收音机用作网关模块来完成。由于CAN图形接口总线和主高速GMLAN总线的电气特性相似，所以它们各自的诊断也类似。</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">在P17信息显示模块和收音机/HVAC控制装置是独立装置的情况下，P17信息显示模块负责在A11收音机和收音机/HVAC控制装置之间传递信息。A11收音机只与P17信息显示模块相连，然后P17信息显示模块通过局域互联网 (LIN) 接口与收音机和收音机/HVAC控制装置通信。</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">当需要系统工作时，总线唤醒信号将由A11收音机或P17信息显示模块产生。CAN图形接口的通信功能应基于&#8220;中控面板唤醒&#8221;的电压水平而启用或停用。电路电压被拉低至1.5伏时，网络将保持唤醒状态。在高速电路电压在5.0伏左右时，通信将停用。</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">如果P17信息显示模块未能响应A11收音机的请求，则A11收音机可对P17信息显示模块执行热复位。&#8220;中控面板复位&#8221;是从A11收音机到P17信息显示模块的低电平有效下拉输出（低于1.5伏），并且与上述&#8220;中控面板唤醒&#8221;信号有相同的电气特性。</div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.10">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.10.1">中速GMLAN电路说明</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">中速GMLAN总线与高速GMLAN总线非常相似，除了其使用的是125千位/秒的较慢的传输速率。该总线拟用于系统响应时间需求，即使用相对较短的时间传输大量数据，如更新图形显示。因此，其常被用于信息娱乐系统的应用。有时需要在低速GMLAN总线和中速GMLAN总线之间进行通信。这通过将A11收音机用作网关模块来完成。由于中速GMLAN总线和主高速GMLAN总线运行方式相似，所以它们各自的诊断也类似。</div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.11">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.11.1">低速GMLAN电路的说明</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">低速GMLAN总线用于那些无需高速率数据传输、使用相对简单的部件的应用。其一般用于由驾驶员控制的功能，与那些动态车辆控制所要求的响应时间相比，这些功能的响应时间较慢。</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">低速GMLAN串行数据网由一条单线、带高压侧驱动的搭铁参考总线总成。在车辆路面操作期间，数据符号（1和0）以33.3千位/秒的正常速率按顺序传输。只对于部件编程来说，可能会用到83.3千位/秒的特定高速数据模式。</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">与高速双线网络不同，单线低速网络在网络的各端不使用终端电阻器。</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">要在总线上传输的数据符号在总线上由不同的电压信号表示。当低速GMLAN总线静止且未被驱动时，存在约0.2伏的低速信号电压。这代表逻辑&#8220;1&#8221;。当传输逻辑&#8220;0&#8221;时，该信号电压被拉高至约4.0伏或更高。</div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.12">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.12.1">局域互联网 (LIN) 电路说明</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">局域互联网 (LIN) 总线由一条传输速率为10.417千位/秒的单线组成。该模块用于交换主控制模块和其它提供支持功能的智能装置之间的信息。此类配置对高速GMLAN总线或低速GMLAN总线的容量或速度没有要求，因此相对比较简单。</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">要传输的数据符号（1和0）在通信总线上由不同的电压电平表示。当LIN总线静止且未被驱动时，该信号处于接近电池电压的高压状态。这代表逻辑&#8220;1&#8221;。当传输逻辑&#8220;0&#8221;时，信号电压被拉低至搭铁（0.0伏）。</div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.13">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.13.1">通信启用电路说明</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">高速GMLAN总线上的装置根据通信启用电路上的电压电平启用或停用通信。当电路电压过高时（12伏左右），启用通信。当电路电压过低时，停用通信。</div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.14">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.14.1">数据链路连接器 (DLC)</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">X84数据链路连接器 (DLC) 是标准的16孔连接器。连接器的设计和位置符合行业范围内的标准，并要求提供以下项目：</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; line-height: 16.00pt; ">
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;端子1低速GMLAN通信端子</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;端子2 Class 2通信端子</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;端子3中速GMLAN串行总线 (+) 端子或对象高速GMLAN串行总线 (+) 端子</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;端子4故障诊断仪电源搭铁端子</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;端子5公共信号搭铁端子</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;端子6高速GMLAN串行数据总线 (+) 端子</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;端子7 Keyword通信端子</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;端子11中速GMLAN串行总线 (-) 端子或对象高速GMLAN串行总线 (-) 端子</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;端子12底盘高速GMLAN串行数据总线 (+) 端子</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;端子13底盘高速GMLAN串行数据总线 (-) 端子</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;端子14高速GMLAN串行数据总线 (-) 端子</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;端子16故障诊断仪电源，蓄电池正极电压端子</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.15">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.15.1">串行数据参考</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">故障诊断仪通过车辆上各种总线进行通信。如果车辆上安装了故障诊断仪，则故障诊断仪将尝试与每个可能选装在车辆上的装置进行通信。如果车辆上未安装某个选装件，则对于该选装装置，故障诊断仪将显示&#8220;No Comm（无通信）&#8221;（或&#8220;Not Connected（未连接）&#8221;）。为避免出现与特定装置不能通信的误诊，请参见<a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A148085-2902658.html">数据链路参考</a>，以获取装置列表、与其通信的总线和特定装置的常规选装件代码。</div>
+    </div>
+  </div>
+</html>
+
+<script>
+
+</script>

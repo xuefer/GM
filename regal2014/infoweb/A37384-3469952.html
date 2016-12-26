@@ -1,0 +1,1836 @@
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title></title>
+    <meta name="Generator" content="Arbortext Publishing Engine 5.3 M072">
+    <link rel="stylesheet" href="content.css" charset="UTF-8" type="text/css"></head>
+  <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1">
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; line-height: 1.1; margin-top: 5.00mm; margin-bottom: 5mm; font-size: 13pt; font-family: Arial; margin-top: 1.00mm; " id="styler-id1.1">
+      <span style="color: #000000; font-family: System; font-weight: normal; ">9.6.3.10 </span>冷却风扇不工作（LHU或LDK）</div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.3">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.3.1">诊断说明</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; line-height: 16.00pt; ">
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;在使用本诊断程序前执行<a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A72794-2910613.html">诊断系统检查 - 车辆</a>。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;查看<a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A161235-1957622.html">诊断策略</a>中的诊断方法概述。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp; <a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A161236-1814794.html">诊断程序说明</a>提供每种诊断类别的概述。</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.4">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.4.1">电路/系统说明</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">发动机冷却风扇系统包括2个风扇、7个继电器、发动机控制模块 (ECM) 以及相关导线。每个风扇总成包括一个电阻器，它能使发动机控制模块使用两个控制电路以3种速度操作发动机冷却风扇。发动机控制模块通过用一个被称为驱动器的固态装置使控制电路搭铁，以使相应的继电器通电。每个驱动器中配备了连接到电压的一个反馈电路。发动机控制模块监测反馈电压，以确定控制电路是否开路、对搭铁短路或对电压短路。冷却风扇和风扇继电器从发动机舱盖下的保险丝盒获取蓄电池电压。在G106处对冷却风扇的运行提供搭铁路径。</div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.5">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.5.1">诊断帮助</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; line-height: 16.00pt; ">
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;故障诊断仪冷却风扇输出控制按以下方式工作：</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; margin-left: 15.00pt; text-indent: 0pt; line-height: 16.00pt; ">
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-3">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-3"><span style="font-family: Arial; ">&#8211; </span> 冷却风扇继电器1以中速运行两个风扇</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-3">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-3"><span style="font-family: Arial; ">&#8211; </span> 冷却风扇继电器2和3以低速运行两个风扇</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-3">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-3"><span style="font-family: Arial; ">&#8211; </span> 冷却风扇继电器1、2和3以高速运行两个风扇</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;将保险丝和继电器从保险丝盒断开或拆下时，务必检查部件电气端子是否腐蚀以及在保险丝盒中是否方向正确。测试互相配合的电气端子是否紧固。</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.6">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.6.1">参考信息</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; font-size: 12pt; line-height: 16.00pt; margin-top: 10pt; margin-bottom: 3pt; ">示意图参照</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; "> 
+        <a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A37421-3439884.html">发动机加热/冷却系统示意图</a> 
+      </div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; font-size: 12pt; line-height: 16.00pt; margin-top: 10pt; margin-bottom: 3pt; ">连接器端视图参照</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; "> 
+        <a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A164814-3444098.html">部件连接器端视图</a> 
+      </div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; font-size: 12pt; line-height: 16.00pt; margin-top: 10pt; margin-bottom: 3pt; ">说明与操作</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; "> 
+        <a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A157392-2316126.html">冷却风扇的说明和操作（LDK或LHU）</a><a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A157392-2580806.html">冷却风扇的说明和操作（LAF、LLU或LTD）</a> 
+      </div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; font-size: 12pt; line-height: 16.00pt; margin-top: 10pt; margin-bottom: 3pt; ">电气信息参考</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; line-height: 16.00pt; ">
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp; <a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A62194-2414706.html">电路测试</a> </span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp; <a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A61973-2413364.html">连接器修理</a> </span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp; <a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A62112-2017709.html">间歇性故障和连接不良的测试</a> </span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp; <a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A61965-2160816.html">接线修理</a> </span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; font-size: 12pt; line-height: 16.00pt; margin-top: 10pt; margin-bottom: 3pt; ">故障诊断仪参考</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; "> 有关故障诊断仪的信息，请参见<a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A72864-3516846.html">控制模块参考</a>
+      </div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.7">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.7.1">电路/系统检验</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; line-height: 16.00pt; ">
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">1.</span>将点火开关置于&#8220;ON（打开）&#8221;位置，使用故障诊断仪观察故障诊断码信息。不应设置DTC P0480、P0481、P0691、P0692、P0693或P0694。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "> <span class=" x-emph-1-0 x-emph-1-1">如果设置故障诊断码</span></span>
+                <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">参见<a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A72795-3516847.html">故障诊断码 (DTC) 列表 - 车辆</a>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "> <span class=" x-emph-1-0 x-emph-1-1">如果未设置故障诊断码</span></span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">2.</span>当用故障诊断仪指令风扇开启和关闭时，确认两个冷却风扇打开和关闭，并以低速、中速和高速运行。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "> <span class=" x-emph-1-0 x-emph-1-1">如果一个冷却风扇未运行</span></span>
+                <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">参见&#8220;电路/系统测试&#8221;</div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "> <span class=" x-emph-1-0 x-emph-1-1">如果两个冷却风扇均不运行</span></span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">3.</span> 全部正常。</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.8">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.8.1">电路/系统测试</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; line-height: 16.00pt; ">
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">1.</span>点火开关置于&#8220;OFF（关闭）&#8221;位置，断开线束连接器，或卸下以下部件：</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; margin-left: 15.00pt; text-indent: 0pt; line-height: 16.00pt; ">
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-2">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;KR20F冷却风扇继电器</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-2">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;KR20E冷却风扇转速控制继电器</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-2">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;KR20L冷却风扇转速控制2继电器</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-2">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;G10L左侧冷却风扇电机</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-2">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;G10R右侧冷却风扇电机</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">2.</span>确认B+和下列部件电路端子之间的测试灯点亮。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; margin-left: 15.00pt; text-indent: 0pt; line-height: 16.00pt; ">
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-2">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;G10R冷却风扇搭铁电路端子3</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-2">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;KR20L继电器开关输出电路端子8</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "> <span class=" x-emph-1-0 x-emph-1-1">如果测试灯未点亮</span></span></td>
+            </tr>
+          </tbody>
+        </table>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; margin-left: 15.00pt; text-indent: 0pt; line-height: 16.00pt; ">
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-1">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-1"><span style="">2.1</span>&nbsp; 测试相应的搭铁电路端对端的电阻是否小于2欧。</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "> 如果大于2欧，则修理电路中的开路/电阻过大故障。</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">如果小于2欧，则修理电路中的搭铁连接线。</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "> <span class=" x-emph-1-0 x-emph-1-1">如果测试灯点亮</span></span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">3.</span>将点火开关置于&#8220;ON（打开）&#8221;位置，确认搭铁和下列KR20继电器端子之间的测试灯点亮。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; margin-left: 15.00pt; text-indent: 0pt; line-height: 16.00pt; ">
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-2">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;KR20F继电器端子85</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-2">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;KR20E继电器端子86和30</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "> <span class=" x-emph-1-0 x-emph-1-1">如果测试灯未点亮且保险丝状态良好</span></span></td>
+            </tr>
+          </tbody>
+        </table>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; margin-left: 15.00pt; text-indent: 0pt; line-height: 16.00pt; ">
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-1">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-1"><span style="">3.1</span>&nbsp; 将点火开关置于&#8220;OFF（关闭）&#8221;位置，断开相应保险丝。</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-1">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-1"><span style="">3.2</span>&nbsp; 测试保险丝和相应的继电器B+端到端之间的电阻是否小于2欧。</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "> 如果大于2欧，则修理电路中的开路/电阻过大故障。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "> 如果小于2欧，则确认保险丝未熔断且保险丝处有电压。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "> <span class=" x-emph-1-0 x-emph-1-1">如果测试灯未点亮，且保险丝熔断</span></span></td>
+            </tr>
+          </tbody>
+        </table>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; margin-left: 15.00pt; text-indent: 0pt; line-height: 16.00pt; ">
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-1">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-1"><span style="">3.1</span>&nbsp; 将点火开关置于&#8220;OFF（关闭）&#8221;位置，断开相应保险丝。</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-1">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-1"><span style="">3.2</span>&nbsp; 测试相应继电器端子和搭铁之间的电阻是否为无穷大。</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; margin-left: 12mm; text-indent: 0pt; line-height: 16.00pt; ">
+            <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+              <col style="width: 0mm">
+              <col style="width: 14.173228346456694pt">
+              <col>
+              <tbody>
+                <tr valign="baseline">
+                  <td align="right"></td><td align="left"><span style="">&#8722;</span>&nbsp;</td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">如果电阻不为无穷大，则修理对搭铁短路故障。</span></td>
+                </tr>
+              </tbody>
+            </table>
+            <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+              <col style="width: 0mm">
+              <col style="width: 14.173228346456694pt">
+              <col>
+              <tbody>
+                <tr valign="baseline">
+                  <td align="right"></td><td align="left"><span style="">&#8722;</span>&nbsp;</td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">如果电阻无穷大，则测试或更换KR20L冷却风扇转速控制2继电器。</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "><span class=" x-emph-1-0 x-emph-1-1">如果测试灯点亮</span></span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">4.</span>将点火开关置于&#8220;OFF（关闭）&#8221;位置，安装KR20F继电器。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">5.</span>在B+和KR20E继电器线圈控制电路端子85之间连接一个测试灯。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">6.</span>将点火开关置于&#8220;ON（打开）&#8221;位置，用故障诊断仪指令冷却风扇以中速运行。测试灯应点亮。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "><span class=" x-emph-1-0 x-emph-1-1">如果测试灯未点亮</span></span></td>
+            </tr>
+          </tbody>
+        </table>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; margin-left: 15.00pt; text-indent: 0pt; line-height: 16.00pt; ">
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-1">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-1"><span style="">6.1</span>&nbsp; 测试下列冷却风扇继电器端子之间的电阻是否小于2欧：</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; margin-left: 30.00pt; text-indent: 0pt; line-height: 16.00pt; ">
+            <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-5-0 x-item-5-2">
+              <col style="width: 0pt">
+              <col style="width: 0pt">
+              <col>
+              <tbody>
+                <tr valign="baseline">
+                  <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-1-0 x-ptxt-1-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp; KR20F冷却风扇继电器端子87</span></td>
+                </tr>
+              </tbody>
+            </table>
+            <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-5-0 x-item-5-2">
+              <col style="width: 0pt">
+              <col style="width: 0pt">
+              <col>
+              <tbody>
+                <tr valign="baseline">
+                  <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-1-0 x-ptxt-1-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp; KR20E冷却风扇转速控制继电器端子85</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "> 如果大于2欧，则修理电路中的开路/电阻过大故障。</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">如果小于2欧，则测试或更换KR20F冷却风扇继电器。</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "><span class=" x-emph-1-0 x-emph-1-1">如果测试灯点亮</span></span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">7.</span>将点火开关置于&#8220;OFF（关闭）&#8221;位置，安装KR20E继电器。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">8.</span>拆下KR20D冷却风扇高速继电器。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">9.</span>在搭铁和KR20D继电器线圈点火电路端子85之间连接一个测试灯。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">10.</span>将点火开关置于&#8220;ON（打开）&#8221;位置，用故障诊断仪指令冷却风扇以中速运行。测试灯应点亮。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "><span class=" x-emph-1-0 x-emph-1-1">如果测试灯未点亮</span></span></td>
+            </tr>
+          </tbody>
+        </table>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; margin-left: 15.00pt; text-indent: 0pt; line-height: 16.00pt; ">
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-1">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-1"><span style="">10.1</span>&nbsp; 测试下列冷却风扇继电器端子之间的电阻是否小于2欧：</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; margin-left: 30.00pt; text-indent: 0pt; line-height: 16.00pt; ">
+            <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-5-0 x-item-5-2">
+              <col style="width: 0pt">
+              <col style="width: 0pt">
+              <col>
+              <tbody>
+                <tr valign="baseline">
+                  <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-1-0 x-ptxt-1-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp; KR20D冷却风扇高速继电器端子85</span></td>
+                </tr>
+              </tbody>
+            </table>
+            <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-5-0 x-item-5-2">
+              <col style="width: 0pt">
+              <col style="width: 0pt">
+              <col>
+              <tbody>
+                <tr valign="baseline">
+                  <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-1-0 x-ptxt-1-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp; KR20E冷却风扇转速控制继电器端子87</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "> 如果大于2欧，则修理电路中的开路/电阻过大故障。</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">如果小于2欧，则测试或更换KR20E冷却风扇高速继电器。</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "> <span class=" x-emph-1-0 x-emph-1-1">如果测试灯点亮</span></span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">11.</span>将点火开关置于&#8220;OFF（关闭）&#8221;位置，安装KR20D继电器。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">12.</span>将点火开关置于&#8220;ON（打开）&#8221;位置，在搭铁和下列的G10冷却风扇线束连接器端子之间连接一个测试灯。用故障诊断仪指令冷却风扇以高速运行。测试灯应根据指令在各端子处点亮。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; margin-left: 15.00pt; text-indent: 0pt; line-height: 16.00pt; ">
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-2">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;G10L左侧冷却风扇电机端子1</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-2">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;G10R右侧冷却风扇电机端子1</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "> <span class=" x-emph-1-0 x-emph-1-1">如果测试灯未点亮且保险丝状态良好</span></span></td>
+            </tr>
+          </tbody>
+        </table>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; margin-left: 15.00pt; text-indent: 0pt; line-height: 16.00pt; ">
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-1">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-1"><span style="">12.1</span>&nbsp; 将点火开关置于&#8220;OFF（关闭）&#8221;位置，测试相应G10冷却风扇电机B+电路端到端的电阻是否小于2欧。</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "> 如果大于2欧，则修理电路中的开路/电阻过大故障。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "> 如果小于2欧，则测试或更换相应的KR20冷却风扇继电器。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "> <span class=" x-emph-1-0 x-emph-1-1">如果测试灯未点亮，且保险丝熔断</span></span></td>
+            </tr>
+          </tbody>
+        </table>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; margin-left: 15.00pt; text-indent: 0pt; line-height: 16.00pt; ">
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-1">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-1"><span style="">12.1</span>&nbsp; 将点火开关置于&#8220;OFF（关闭）&#8221;位置，测试相应G10冷却风扇端子1和搭铁之间的电阻是否为无穷大。</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; margin-left: 12mm; text-indent: 0pt; line-height: 16.00pt; ">
+            <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+              <col style="width: 0mm">
+              <col style="width: 14.173228346456694pt">
+              <col>
+              <tbody>
+                <tr valign="baseline">
+                  <td align="right"></td><td align="left"><span style="">&#8722;</span>&nbsp;</td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">如果电阻不为无穷大，则修理对搭铁短路故障。</span></td>
+                </tr>
+              </tbody>
+            </table>
+            <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+              <col style="width: 0mm">
+              <col style="width: 14.173228346456694pt">
+              <col>
+              <tbody>
+                <tr valign="baseline">
+                  <td align="right"></td><td align="left"><span style="">&#8722;</span>&nbsp;</td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">如果电阻无穷大，则测试或更换相应的G10冷却风扇。</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "> <span class=" x-emph-1-0 x-emph-1-1">如果测试灯点亮</span></span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">13.</span>点火开关置于&#8220;OFF（关闭）&#8221;位置，将以下继电器从发动机舱盖下继电器盒X70上拆下：</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; margin-left: 15.00pt; text-indent: 0pt; line-height: 16.00pt; ">
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-2">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;KR20M左侧冷却风扇中速继电器</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-2">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;KR20N右侧冷却风扇中速继电器</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">14.</span>将点火开关置于&#8220;ON（打开）&#8221;位置，在搭铁和下列各继电器的线束端子4之间连接一个测试灯。测试灯应在各端子处点亮。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; margin-left: 15.00pt; text-indent: 0pt; line-height: 16.00pt; ">
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-2">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;KR20M冷却风扇左侧中速继电器端子</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-2">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;KR20N冷却风扇右侧中速继电器端子</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-2">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;KR20L冷却风扇转速控制2继电器</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "> <span class=" x-emph-1-0 x-emph-1-1">如果测试灯未点亮</span></span></td>
+            </tr>
+          </tbody>
+        </table>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; margin-left: 15.00pt; text-indent: 0pt; line-height: 16.00pt; ">
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-1">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-1"><span style="">14.1</span>&nbsp; 测试相应冷却风扇继电器的B+保险丝和端子4之间的电阻是否小于2欧。</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; margin-left: 12mm; text-indent: 0pt; line-height: 16.00pt; ">
+            <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+              <col style="width: 0mm">
+              <col style="width: 14.173228346456694pt">
+              <col>
+              <tbody>
+                <tr valign="baseline">
+                  <td align="right"></td><td align="left"><span style="">&#8722;</span>&nbsp;</td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">如果大于2欧，则修理电路中的开路/电阻过大故障。</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "> <span class=" x-emph-1-0 x-emph-1-1">如果测试灯点亮</span></span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">15.</span>在B+和下列各继电器的线束端子6之间连接一个测试灯。指令冷却风扇中速运转。测试灯应根据指令在各端子处点亮。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; margin-left: 15.00pt; text-indent: 0pt; line-height: 16.00pt; ">
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-2">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;KR20M左侧冷却风扇中速继电器</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-2">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;KR20N右侧冷却风扇中速继电器</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-2">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;KR20L冷却风扇转速控制2继电器</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "> <span class=" x-emph-1-0 x-emph-1-1">如果测试灯未点亮</span></span></td>
+            </tr>
+          </tbody>
+        </table>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; margin-left: 15.00pt; text-indent: 0pt; line-height: 16.00pt; ">
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-1">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-1"><span style="">15.1</span>&nbsp; 测试KR20F冷却风扇继电器端子87和下列相应继电器端子之间的电阻是否小于2欧。 </span></td>
+              </tr>
+            </tbody>
+          </table>
+          <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; margin-left: 30.00pt; text-indent: 0pt; line-height: 16.00pt; ">
+            <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-5-0 x-item-5-2">
+              <col style="width: 0pt">
+              <col style="width: 0pt">
+              <col>
+              <tbody>
+                <tr valign="baseline">
+                  <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-1-0 x-ptxt-1-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;KR20M冷却风扇左侧中速继电器端子6</span></td>
+                </tr>
+              </tbody>
+            </table>
+            <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-5-0 x-item-5-2">
+              <col style="width: 0pt">
+              <col style="width: 0pt">
+              <col>
+              <tbody>
+                <tr valign="baseline">
+                  <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-1-0 x-ptxt-1-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;KR20N冷却风扇右侧中速继电器端子6</span></td>
+                </tr>
+              </tbody>
+            </table>
+            <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-5-0 x-item-5-2">
+              <col style="width: 0pt">
+              <col style="width: 0pt">
+              <col>
+              <tbody>
+                <tr valign="baseline">
+                  <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-1-0 x-ptxt-1-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;KR20L冷却风扇转速控制2继电器端子6</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; margin-left: 12mm; text-indent: 0pt; line-height: 16.00pt; ">
+            <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+              <col style="width: 0mm">
+              <col style="width: 14.173228346456694pt">
+              <col>
+              <tbody>
+                <tr valign="baseline">
+                  <td align="right"></td><td align="left"><span style="">&#8722;</span>&nbsp;</td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">如果大于2欧，则修理电路中的开路/电阻过大故障。</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">如果小于2欧，则测试或更换KR20F冷却风扇继电器。</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "> <span class=" x-emph-1-0 x-emph-1-1">如果测试灯点亮</span></span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">16.</span>将点火开关置于&#8220;OFF（关闭）&#8221;位置，安装以下继电器：</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; margin-left: 15.00pt; text-indent: 0pt; line-height: 16.00pt; ">
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-2">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;KR20M左侧冷却风扇中速继电器</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-2">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;KR20N右侧冷却风扇中速继电器</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">17.</span>将点火开关置于&#8220;ON（打开）&#8221;位置，在搭铁和下列的G10冷却风扇线束连接器端子之间连接一个测试灯。用故障诊断仪指令冷却风扇以中速运行。测试灯应根据指令在各端子处点亮。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; margin-left: 15.00pt; text-indent: 0pt; line-height: 16.00pt; ">
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-2">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;G10L左侧冷却风扇电机端子2</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-2">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;G10R右侧冷却风扇电机端子2</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "> <span class=" x-emph-1-0 x-emph-1-1">如果测试灯未点亮</span></span></td>
+            </tr>
+          </tbody>
+        </table>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; margin-left: 15.00pt; text-indent: 0pt; line-height: 16.00pt; ">
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-1">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-1"><span style="">17.1</span>&nbsp;测试相应的继电器开关输出电路端到端的电阻是否小于2欧。 </span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; margin-left: 12mm; text-indent: 0pt; line-height: 16.00pt; ">
+          <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+            <col style="width: 0mm">
+            <col style="width: 14.173228346456694pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="left"><span style="">&#8722;</span>&nbsp;</td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">如果大于2欧，则修理电路中的开路/电阻过大故障。</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">如果小于2欧，则视情况测试或更换KR20M或KR20N冷却风扇继电器。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "> <span class=" x-emph-1-0 x-emph-1-1">如果测试灯点亮</span></span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">18.</span>将点火开关置于&#8220;OFF（关闭）&#8221;位置，连接G10冷却风扇的线束连接器。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td>
+                <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; ">
+                  <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">
+                    <span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">注意:</span>这条跨接线形成左侧冷却风扇的并联搭铁电路。在接到指令之前，保持跨接线就位。</div>
+                </div>
+                <span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">19.</span>在KR20L速度控制2继电器线束连接器的端子2和端子8之间连接一条带40安培保险丝的跨接线。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">20.</span>将点火开关置于&#8220;ON（打开）&#8221;位置，用故障诊断仪指令冷却风扇以高速运行。两个风扇都应全速运行。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; margin-left: 12mm; text-indent: 0pt; line-height: 16.00pt; ">
+          <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+            <col style="width: 0mm">
+            <col style="width: 14.173228346456694pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="left"><span style="">&#8722;</span>&nbsp;</td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "> <span class=" x-emph-1-0 x-emph-1-1">如果左侧冷却风扇未运行</span></span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; margin-left: 15.00pt; text-indent: 0pt; line-height: 16.00pt; ">
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-1">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-1"><span style="">20.1</span>&nbsp; 测试下列电路端子之间的电阻是否小于2欧：</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; margin-left: 30.00pt; text-indent: 0pt; line-height: 16.00pt; ">
+            <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-5-0 x-item-5-2">
+              <col style="width: 0pt">
+              <col style="width: 0pt">
+              <col>
+              <tbody>
+                <tr valign="baseline">
+                  <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-1-0 x-ptxt-1-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp; G10L冷却风扇电机左侧端子3</span></td>
+                </tr>
+              </tbody>
+            </table>
+            <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-5-0 x-item-5-2">
+              <col style="width: 0pt">
+              <col style="width: 0pt">
+              <col>
+              <tbody>
+                <tr valign="baseline">
+                  <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-1-0 x-ptxt-1-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp; KR20L冷却风扇转速控制2继电器端子2</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; margin-left: 12mm; text-indent: 0pt; line-height: 16.00pt; ">
+          <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+            <col style="width: 0mm">
+            <col style="width: 14.173228346456694pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="left"><span style="">&#8722;</span>&nbsp;</td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">如果大于2欧，则修理电路中的开路/电阻过大故障。</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">如果小于2欧，则测试或更换G10L冷却风扇电机。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "> <span class=" x-emph-1-0 x-emph-1-1">如果右侧冷却风扇未运行</span></span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "> 测试或更换G10R右侧冷却风扇电机。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "> <span class=" x-emph-1-0 x-emph-1-1">如果两个风扇均运行</span></span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">21.</span>用故障诊断仪指令冷却风扇以中速运行。两个风扇都应中速运行。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "> <span class=" x-emph-1-0 x-emph-1-1">如果任何一个风扇未运行</span></span></td>
+            </tr>
+          </tbody>
+        </table>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; margin-left: 12mm; text-indent: 0pt; line-height: 16.00pt; ">
+          <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+            <col style="width: 0mm">
+            <col style="width: 14.173228346456694pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="left"><span style="">&#8722;</span>&nbsp;</td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">测试或更换相应的G10冷却风扇电机。</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">22.</span>将点火开关置于&#8220;OFF（关闭）&#8221;位置，拆下跨接线并安装KR20L速度控制2继电器。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">23.</span>将点火开关置于&#8220;ON（打开）&#8221;位置，用故障诊断仪指令冷却风扇以低速运行。两个风扇都应减速运行。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "> <span class=" x-emph-1-0 x-emph-1-1">如果两个风扇均关闭</span></span></td>
+            </tr>
+          </tbody>
+        </table>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; margin-left: 12mm; text-indent: 0pt; line-height: 16.00pt; ">
+          <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+            <col style="width: 0mm">
+            <col style="width: 14.173228346456694pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="left"><span style="">&#8722;</span>&nbsp;</td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">测试或更换KR20L冷却风扇转速控制2继电器。</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">24.</span>如果所有电路测试正常，则测试或更换KR20L速度控制2继电器。</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.9">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.9.1">部件测试</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; line-height: 16.00pt; ">
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">1.</span>将点火开关置于&#8220;OFF（关闭）&#8221;位置，断开一个&#8220;KR20冷却风扇继电器&#8221;。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">2.</span>测试端子85和86之间的电阻是否为70&#8211;110欧，以及KR20F冷却风扇继电器的电阻是否为95&#8211;135欧。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "> <span class=" x-emph-1-0 x-emph-1-1">如果小于70欧或大于110欧 </span></span></td>
+            </tr>
+          </tbody>
+        </table>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; margin-left: 12mm; text-indent: 0pt; line-height: 16.00pt; ">
+          <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+            <col style="width: 0mm">
+            <col style="width: 14.173228346456694pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="left"><span style="">&#8722;</span>&nbsp;</td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">更换KR20冷却风扇继电器。</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "> <span class=" x-emph-1-0 x-emph-1-1">如果在70-110欧之间</span></span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">3.</span>测试下列端子之间的电阻是否为无穷大。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; margin-left: 15.00pt; text-indent: 0pt; line-height: 16.00pt; ">
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-2">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;30和86</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-2">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;30和87</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-2">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;30和85</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-2">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;85和87</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; margin-left: 12mm; text-indent: 0pt; line-height: 16.00pt; ">
+            <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+              <col style="width: 0mm">
+              <col style="width: 14.173228346456694pt">
+              <col>
+              <tbody>
+                <tr valign="baseline">
+                  <td align="right"></td><td align="left"><span style="">&#8722;</span>&nbsp;</td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "> <span class=" x-emph-1-0 x-emph-1-1">如果电阻小于无穷大</span></span></td>
+                </tr>
+              </tbody>
+            </table>
+            <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+              <col style="width: 0mm">
+              <col style="width: 14.173228346456694pt">
+              <col>
+              <tbody>
+                <tr valign="baseline">
+                  <td align="right"></td><td align="left"><span style="">&#8722;</span>&nbsp;</td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">更换KR20冷却风扇继电器。</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "> <span class=" x-emph-1-0 x-emph-1-1">如果电阻为无穷大</span></span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td>
+                <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; ">
+                  <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">
+                    <span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">注意:</span>以下测试仅适用于KR20L冷却风扇速度控制2继电器。</div>
+                </div>
+                <span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">4.</span>测试端子3和4之间的电阻是否小于2欧。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "><span class=" x-emph-1-0 x-emph-1-1">如果大于2欧</span></span></td>
+            </tr>
+          </tbody>
+        </table>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; margin-left: 12mm; text-indent: 0pt; line-height: 16.00pt; ">
+          <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+            <col style="width: 0mm">
+            <col style="width: 14.173228346456694pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="left"><span style="">&#8722;</span>&nbsp;</td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">更换KR20L冷却风扇转速控制2继电器。</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "> <span class=" x-emph-1-0 x-emph-1-1">如果小于2欧</span></span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">5.</span>在继电器端子85和B+之间连接一根带20安培保险丝的跨接线。在继电器端子86和搭铁之间连接一根跨接线。测试端子30和87之间的电阻是否小于2欧。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "> <span class=" x-emph-1-0 x-emph-1-1">如果大于2欧</span></span></td>
+            </tr>
+          </tbody>
+        </table>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; margin-left: 12mm; text-indent: 0pt; line-height: 16.00pt; ">
+          <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+            <col style="width: 0mm">
+            <col style="width: 14.173228346456694pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="left"><span style="">&#8722;</span>&nbsp;</td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">更换KR20冷却风扇继电器。</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; line-height: 16.00pt; ">
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; line-height: 1.1; margin-top: 5.00mm; margin-bottom: 5mm; font-family: Arial; " id="styler-id1.9.3.1">G10发动机冷却风扇</div>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">1.</span>将点火开关置于&#8220;OFF（关闭）&#8221;位置，断开G10发动机冷却风扇的线束连接器。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">2.</span>将跨接线连接到搭铁和G10搭铁电路端子3之间。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">3.</span>在B+和G10风扇B+电源电路端子1之间连接一条带40安培保险丝的跨接线。冷却风扇应高速运行。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "> <span class=" x-emph-1-0 x-emph-1-1">如果冷却风扇未运行</span></span></td>
+            </tr>
+          </tbody>
+        </table>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; margin-left: 12mm; text-indent: 0pt; line-height: 16.00pt; ">
+          <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+            <col style="width: 0mm">
+            <col style="width: 14.173228346456694pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="left"><span style="">&#8722;</span>&nbsp;</td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">更换G10发动机冷却风扇。</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "> <span class=" x-emph-1-0 x-emph-1-1">如果冷却风扇运行</span></span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">4.</span>在B+和G10风扇B+电源电路端子2之间连接一条带40安培保险丝的跨接线。冷却风扇应减速运行。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "> <span class=" x-emph-1-0 x-emph-1-1">如果冷却风扇未运行</span></span></td>
+            </tr>
+          </tbody>
+        </table>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; margin-left: 12mm; text-indent: 0pt; line-height: 16.00pt; ">
+          <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+            <col style="width: 0mm">
+            <col style="width: 14.173228346456694pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="left"><span style="">&#8722;</span>&nbsp;</td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">更换G10发动机冷却风扇。</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.10">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.10.1">维修指南</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">完成诊断程序后执行<a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A143214-1556771.html">诊断修理检验</a>。</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; line-height: 16.00pt; ">
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp; <a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A62215-777743.html">继电器的更换（连接至线束）</a><a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A62215-2131891.html">继电器的更换（电气中心内）</a> </span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp; <a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A37302-2906745.html">发动机冷却液风扇的更换 (LAF, LLU, LTD)</a><a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A37302-2906751.html">发动机冷却风扇的更换 (LDK)</a> </span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</html>
+
+<script>
+
+</script>

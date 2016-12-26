@@ -1,0 +1,384 @@
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title></title>
+    <meta name="Generator" content="Arbortext Publishing Engine 5.3 M072">
+    <link rel="stylesheet" href="content.css" charset="UTF-8" type="text/css"></head>
+  <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1">
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; line-height: 1.1; margin-top: 5.00mm; margin-bottom: 5mm; font-size: 13pt; font-family: Arial; margin-top: 1.00mm; " id="styler-id1.1">
+      <span style="color: #000000; font-family: System; font-weight: normal; ">9.4.5.4 </span>燃油系统的说明 (LDK)</div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.3">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.3.1">燃油系统概述</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">燃油系统采用电子无回路请求式设计。无回路燃油系统不使热燃油从发动机返回至油箱，以降低油箱的内部温度。油箱内部温度的降低导致较低的蒸发排放。</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">涡轮式电动燃油泵连接至燃油箱内的燃油泵模块。燃油泵通过燃油滤清器和燃油供油管路向高压燃油泵提供燃油。高压燃油泵向可变压力燃油导轨提供燃油。燃油通过精密的多孔燃油喷射器进入燃烧室。发动机控制模块 (ECM) 控制高压燃油泵、燃油导轨压力、喷射器正时和喷射持续时间。</div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.4">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.4.1">无回路电子燃油系统</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">无回路电子燃油系统是一个微处理器控制燃油输送系统，将燃油从油箱运送到燃油导轨。它是传统的机械油压调节器的电子替代品。燃油箱内的限压调节阀提供一个附加的过压保护措施。通过发动机控制模块 (ECM) 指令期望的燃油压力，并且通过一个GMLAN串行数据信息传输给燃油泵电源控制模块。液态油压传感器为&#8220;闭环&#8221;燃油压力控制提供发动机控制模块所需的反馈。</div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.5">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.5.1">燃油泵电源控制模块</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">燃油泵电源控制模块是一个可维修的GMLAN模块。燃油泵电源控制模块从发动机控制模块 (ECM) 接收期望的燃油压力信息，同时控制位于油箱内的燃油泵，以达到期望的燃油压力。燃油泵电源控制模块向燃油泵发送一个25千赫的脉宽调制信号，同时泵速根据该信号变化的占空比而改变。燃油泵最大供应电流为15安。液态油压传感器向发动机控制模块提供燃油压力反馈。</div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.6">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.6.1">油压传感器</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">油压传感器是一个可维修的5伏、3针脚的装置。它位于燃油箱前的燃油供给管线上，并且通过车辆线束从发动机控制模块接收能量和搭铁。传感器向发动机控制模块提供一个燃油压力信号，用于提供&#8220;闭环&#8221;燃油压力控制。</div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.7">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.7.1">燃油箱</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">燃油箱可储存燃油。燃油箱位于车辆的后侧。燃油箱用2个连接到车架的金属箍带分别固定。燃油箱采用高密度聚乙烯材料模铸而成。</div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.8">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.8.1">燃油加注管</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">燃油加注管有一个内置的限制器以防止加注含铅燃油。</div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.9">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.9.1">燃油加注口盖</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">燃油加注管有一个带系链的燃油加注口盖。一个限制扭矩的设备可阻止此盖被过度固定。为安装此盖，请顺时针转动此盖，直到听到咔嗒声为止。这表明盖子正确扭转并且完全密封。</div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.10">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.10.1">燃油泵模块</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">燃油泵模块包括以下主要部件：</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; line-height: 16.00pt; ">
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;油位传感器</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;燃油泵和储液罐总成</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;燃油滤清器</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;限压调节阀</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.11">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.11.1">油位传感器</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">油位传感器包含一个浮子、导线浮子臂和陶瓷电阻器卡。浮子臂的位置指示燃油油位。油位传感器包括一个可变电阻器，该电阻器可以根据浮子臂的位置改变电阻。发动机控制模块通过高速控制器局域网总线将燃油油位信息发送至车身控制模块。然后，发动机控制模块然后通过&#8220;低速控制器局域网总线&#8221;将燃油油位百分比传送到组合仪表，以控制燃油表。</div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.12">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.12.1">燃油泵</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">燃油泵安装在燃油泵模块储油罐内。燃油泵是一种电动泵。根据来自油压传感器的反馈，燃油以一定的压力传输至高压燃油泵。即使在燃油油位过低和车辆操作过猛的情况下，燃油泵仍向发动机提供恒定流量的燃油。燃油泵挠性管用于减少燃油泵发出的燃油脉冲和噪声。</div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.13">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.13.1">限压调节阀</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">限压调节阀取代了机械无回路燃油系统上使用的典型燃油压力调节器。在车辆正常运行时限压调节阀关闭。限压调节阀在高温时用于卸压，一旦燃油泵电源控制模块默认为100%的燃油泵脉宽调制 (PWM) 时，它也起到燃油压力调节器的作用。由于燃油系统压力的偏差，限压调节阀的开启压力设置高于机械无回路燃油系统压力调节器的压力。</div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.14">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.14.1">燃油滤清器</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">燃油滤清器位于燃油箱燃油泵模块和燃油喷射系统之间的供油管上。电动燃油泵通过燃油串接式燃油滤清器向燃油喷射系统提供燃油。纸质滤芯捕获燃油中可能损坏燃油喷射系统的颗粒。滤清器壳体制作坚固，能够承受最大燃油系统压力，并能耐受燃油添加剂和温度变化。燃油滤清器的更换，没有规定的维修间隔。更换阻塞的燃油滤清器。</div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.15">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.15.1">燃油供油管</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">低压燃油供油管将燃油从燃油箱输送到高压燃油泵。</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">位于发动机舱内的燃油供油管总成将底盘燃油管连接至高压燃油泵。此管包含燃油脉动衰减器和燃油压力检修阀，并且是用不锈钢制成的。</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">燃油供油中间管是一根将燃油从高压燃油泵输送到燃油导轨的高压管。燃油供油中间管用不锈钢制成。</div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.16">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.16.1">尼龙燃油管</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; font-size: 12pt; line-height: 16.00pt; ">
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; font-size: 12pt; line-height: 16.00pt; ">
+          <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">
+            <span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; font-size: 12pt; line-height: 16.00pt; ">警告：</span>为降低失火和人身伤害的危险，请遵守以下几点：</div>
+          <div class=" x-attention-list1-4-0 x-attention-list1-4-1">
+            <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-attention-item-1-0 x-attention-item-1-1">
+              <col style="width: 6mm">
+              <col style="width: 14.173228346456693pt">
+              <col>
+              <tbody>
+                <tr valign="baseline">
+                  <td align="right"></td><td align="left"><span style="font-size: 14pt; font-family: Arial; font-style: normal; font-weight: normal; ">&#8226;</span>&nbsp;</td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">在安装过程中应更换所有开裂、划伤或损坏的尼龙燃油管，不得试图修理尼龙燃油管段。</span></td>
+                </tr>
+              </tbody>
+            </table>
+            <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-attention-item-1-0 x-attention-item-1-1">
+              <col style="width: 6mm">
+              <col style="width: 14.173228346456693pt">
+              <col>
+              <tbody>
+                <tr valign="baseline">
+                  <td align="right"></td><td align="left"><span style="font-size: 14pt; font-family: Arial; font-style: normal; font-weight: normal; ">&#8226;</span>&nbsp;</td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">安装新燃油管时，不得用锤子直接敲击燃油管束卡夹。尼龙管损坏会导致燃油泄漏。</span></td>
+                </tr>
+              </tbody>
+            </table>
+            <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-attention-item-1-0 x-attention-item-1-1">
+              <col style="width: 6mm">
+              <col style="width: 14.173228346456693pt">
+              <col>
+              <tbody>
+                <tr valign="baseline">
+                  <td align="right"></td><td align="left"><span style="font-size: 14pt; font-family: Arial; font-style: normal; font-weight: normal; ">&#8226;</span>&nbsp;</td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">在尼龙蒸气管附近使用加热枪时，务必用湿毛巾盖住尼龙蒸气管。同时，切勿将车辆暴露于温度高于115&#176;C (239&#176;F) 的环境下超过1小时或长期暴露于温度高于90&#176;C (194&#176;F) 的环境下。</span></td>
+                </tr>
+              </tbody>
+            </table>
+            <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-attention-item-1-0 x-attention-item-1-1">
+              <col style="width: 6mm">
+              <col style="width: 14.173228346456693pt">
+              <col>
+              <tbody>
+                <tr valign="baseline">
+                  <td align="right"></td><td align="left"><span style="font-size: 14pt; font-family: Arial; font-style: normal; font-weight: normal; ">&#8226;</span>&nbsp;</td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">在连接燃油管接头前，务必在外螺纹管接头上滴数滴清洁的发动机机油。这样可保证重新连接正确并防止可能出现的燃油泄漏。（在正常运行中，位于插座连接器的O形密封圈会出现膨胀，如果不进行润滑，就无法重新正确连接。）</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">尼龙管制造坚固，能够承受最大的燃油系统压力，并耐受燃油添加剂的作用以及温度的变化。</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">耐热橡胶软管或波形塑料套管用于保护管承受磨损、高温或振动的部分。</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">尼龙管具有一定挠性，可平滑弯曲地排布在车辆底部。但是，如果尼龙燃油管受力突然弯曲，则燃油管会扭结并限制燃油流动。此外，如果接触燃油，尼龙管会变硬并且如果弯曲过大则更可能扭结。在带尼龙燃油管的车辆上操作时要特别小心。</div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.17">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.17.1">连接接头</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">连接接头简化了燃油系统部件的安装和连接。这些接头包括一个独特的插座连接器和一个兼容的外螺纹管接头。位于插座连接器内的O形密封圈可密封燃油。位于插座连接器内的整体式锁紧凸舌将接头固定在一起。</div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.18">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.18.1">高压燃油泵</div>
+      <div class=" x-graphic-3-0 x-graphic-3-3">
+        <a href="8xNzY5OTYwLnRpZi5naWY_255E.gif"><img alt="Graphic" border="0" width="241" src="8xNzY5OTYwLnRpZi5naWY_255E.gif"></a>
+      </div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">直接喷射系统所需的高燃油压力由高压燃油泵提供。燃油泵安装在发动机后部，由凸轮轴上的一个3凸角凸轮驱动。该泵还将执行器用作内部电磁阀来调节燃油压力。为保持发动机在任何工作条件下都可以高效运行，发动机控制模块 (ECM) 根据发动机转速和负载的不同，请求2到15兆帕（290到2,176磅/平方英寸）的压力。发动机控制模块的输出驱动器为泵控制模块提供一个12伏脉宽调制 (PWM) 信号，该信号通过在泵行程期间的特定时段关闭和打开控制阀来调节燃油压力。这可有效调节泵的每一次行程中传送到燃油导轨的部分。当控制电磁阀未通电时，泵将以最大流量工作。如果泵控制出现故障，泵内的泄压阀能够保护高压系统。</div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.19">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.19.1">燃油导轨总成</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">燃油导轨总成连接至气缸盖。燃油导轨向喷射器分配高压燃油。燃油导轨总成由以下部件组成：</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; line-height: 16.00pt; ">
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;直接燃油喷射器</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;燃油导轨压力传感器</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.20">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.20.1">燃油喷射器</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">燃油喷射系统采用高压、直接喷油、无回路请求式设计。喷射器安装在气缸盖的吸气和进气口，且直接把燃油喷洒进燃烧室。由于燃油喷射器位于燃烧室中，直接喷油需要高的燃油压力。燃油压力必须高于压缩压力，需要一个高压燃油泵。由于高的燃油压力，燃油喷射器还需要更多电源。发动机控制模块向每一个燃油喷射器提供单独的高电压电源电路和高电压控制电路。喷射器高压电源电路和高压控制电路都由发动机控制模块控制。发动机控制模块通过搭铁控制电路为各燃油喷射器通电。发动机控制模块使用65伏电压控制各燃油喷射器。发动机控制模块中的升压电容控制此操作。在65伏升压电容下，电容器通过喷射器放电，使喷射器初步打开。之后喷射器在12伏下保持开启。</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">燃油喷射器总成是一个内开电磁喷射器。喷射器钻有有六个精密的孔，形成一个锥体形状的椭圆锥形。燃油喷射器有一个长细端头以便让气缸盖中有足够的冷却套管。</div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.21">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.21.1">燃油喷射燃油导轨油压传感器</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">燃油导轨压力传感器可检测燃油导轨中的燃油压力。发动机控制模块 (ECM) 向5伏参考电压电路提供5伏参考电压，并向参考搭铁电路提供搭铁。发动机控制模块接收信号电路上变化的信号电压。发动机控制模块检测到燃油导轨压力传感器电路上的电压。当燃油压力变高时信号电压变高。当燃油压力变低时，信号电压变低。</div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.22">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.22.1">燃油脉动衰减器</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">燃油脉动衰减器是低压燃油供油管总成的一部分。燃油脉动衰减器采用膜片式，一侧承受燃油泵压力，另一侧承受弹簧压力。阻尼器的功能是缓冲燃油泵压力的脉动。</div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.23">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.23.1">燃油计量工作模式</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">控制模块监测来自多个传感器的电压，以确定供给发动机的燃油量。控制模块通过改变喷油器脉宽，控制输送至发动机的燃油量。燃油输送有几个模式。</div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.24">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.24.1">起动模式</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">点火开关首次转到&#8220;ON（打开）&#8221;位置时，控制模块给燃油泵通电2秒。让燃油泵在燃油系统内积聚压力。控制模块根据发动机冷却液温度 (ECT)、歧管绝对压力 (MAP)、质量空气流量 (MAF) 和节气门位置传感器的输入信号，计算空燃比。在发动机转速达到预定转速之前，系统保持在起动模式。</div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.25">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.25.1">清除溢油模式</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">如果发动机淹缸，通过将加速踏板踩到底来清理发动机，然后起动发动机。节气门位置传感器处于节气门大开时 (WOT) ，控制模块减小燃油喷射器脉冲宽度，以提高空燃比。只要节气门仍然大开，且发动机转速低于预定的转速，控制模块就维持该燃油喷射器空燃比。如果节气门不保持大开，控制模块回到起动模式。</div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.26">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.26.1">运行模式</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">运行模式有两个状态，称为&#8220;开环&#8221;和&#8220;闭环&#8221;。当发动机刚起动且转速高于预定转速时，系统开始进行&#8220;开环&#8221;操作。控制模块忽略来自加热型氧传感器 (HO2S) 的信号。控制模块根据发动机冷却液温度 (ECT)、歧管绝对压力 (MAP)、质量空气流量 (MAF) 和节气门位置传感器的输入信号，计算空燃比。传感器将保持在&#8220;开环&#8221;模式中，直到满足如下条件：</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; line-height: 16.00pt; ">
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;加热型氧传感器的电压输出发生变化，表明该传感器达到足够高的温度以正常工作。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;发动机冷却液温度传感器高于规定温度。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;发动机起动后已经过一段规定的时间。</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">对上述条件，不同的发动机有其特定的值，这些特定值存储在电可擦可编程只读存储器 (EEPROM) 中。达到这些值后，系统进入&#8220;闭环&#8221;运行。在&#8220;闭环&#8221;状态下，控制模块根据各传感器的信号（主要是来自加热型氧传感器的信号），计算空燃比和喷射器通电时间。这使空燃比保持非常接近于14.7:1。</div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.27">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.27.1">加速模式</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">当驾驶员踩下加速踏板时，进入气缸的空气流量快速增加。为了防止可能的加速迟缓，控制模块在加速过程中增加喷射器脉宽以提供更多的燃油。这也称为动力增强。控制模块根据节气门位置、发动机冷却液温度 (ECT)、歧管绝对压力 (MAP)、质量空气流量 (MAF) 和发动机转速，确定需要的燃油量。</div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.28">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.28.1">减速模式</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">当驾驶员释放加速踏板时，进入发动机的空气流量将减少。控制模块监控节气门位置、质量空气流量 (MAF) 和歧管绝对压力 (MAP) 的相应变化。如果减速非常迅速，或者减速时间长，比如节气门关闭后的长时间滑行，控制模块完全切断燃油。切断燃油是为了防止催化转化器损坏。</div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.29">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.29.1">蓄电池电压校正模式</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">当蓄电池电压过低时，控制模块使用以下方式补偿点火系统提供的弱火花：</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; line-height: 16.00pt; ">
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;增加供油量</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;提高怠速转速</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;增加点火持续时间</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.30">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.30.1">断油模式</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">当满足以下条件时，控制模块将切断燃油供应以保护动力总成不受损坏并改善动力性能：</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; line-height: 16.00pt; ">
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;将点火开关置于&#8220;OFF（关闭）&#8221;位置。这将防止发动机继续运行。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;将点火开关置于&#8220;ON（打开）&#8221;位置但没有点火参考信号。这防止溢油或回火。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;发动机转速过高，超过红线。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;车速过高，超出轮胎额定速度。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;处于长时间、高速、关闭节气门滑行减速 - 这将减少排放并增强发动机制动作用。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;处于长时间减速过程中，以防止催化转化器损坏。</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.31">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.31.1">燃油调整</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">控制模块控制空气/燃油计量系统，以提供可能最佳的动力性能、燃油经济性和排放控制组合。控制模块监测&#8220;闭环&#8221;状态下的加热型氧传感器 (HO2S) 信号电压，并且根据该信号调节喷射器的脉冲宽度以调节燃油供应。对于短期和长期燃油调整，理想的燃油调整值都接近0%。正的燃油调节值说明控制模块正在增加脉宽来增加燃油以补偿偏稀状况。负的燃油调节值表示控制模块正在减少脉宽来减少燃油量以补偿燃油偏浓状况。燃油供应的变化将改变长期和短期燃油调整值。短期燃油调节值将快速地发生变化以响应加热型氧传感器信号电压的变化。这些变化将对发动机供油进行微调。长期燃油调节对供油进行粗调，以回到居中位置并恢复对短期燃油调节的控制。可使用故障诊断仪来监测短期和长期燃油调整值。长期燃油调整诊断以多个长期速度负荷读入单元的平均值作为基础。控制模块根据发动机转速和发动机负荷来选择读入单元。如果控制模块检测到燃油偏稀或偏浓状况，控制模块将设置燃油调节故障诊断码 (DTC)。</div>
+    </div>
+  </div>
+</html>
+
+<script>
+
+</script>

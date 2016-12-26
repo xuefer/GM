@@ -1,0 +1,577 @@
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title></title>
+    <meta name="Generator" content="Arbortext Publishing Engine 5.3 M072">
+    <link rel="stylesheet" href="content.css" charset="UTF-8" type="text/css"></head>
+  <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1">
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; line-height: 1.1; margin-top: 5.00mm; margin-bottom: 5mm; font-size: 13pt; font-family: Arial; margin-top: 1.00mm; " id="styler-id1.1">
+      <span style="color: #000000; font-family: System; font-weight: normal; ">6.1.2.14 </span>人机接口控制模块的编程和设置</div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.3">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; ">
+        <div class=" x-list1-5-0">
+          <span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">注意:</span>
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;切勿对控制模块进行编程，除非有维修程序或维修通讯的指导。如果控制模块未利用正确的校准软件进行正确配置，则控制模块无法正确控制所有车辆功能。</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;确保编程工具装备了最新软件并且与数据链路连接器牢固连接。如果编程过程中断，则可能会使编程失败或损坏控制模块。</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;在编程过程中，蓄电池电压稳定很重要。任何波动、峰值、过压或电压损失都将中断编程。安装<span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; "><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; ">EL-49642</span><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; ">维修编程系统编程支持工具</span></span>以维持系统电压。如果无法提供此工具，则连接一根电压充足的12伏跨接线或从交流电压电源上断开的助力器组件。</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;关闭或停用可能对车辆蓄电池造成负荷的系统，如车内灯、车外灯（包括日间行车灯）、HVAC、收音机等。</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;在编程程序期间，遵循SPS提示以修正点火开关位置。</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;完成编程后，清除故障诊断码。清除动力传动系统故障诊断码可能会将Inspection/Maintenance (I/M)（检查/保养）系统状态显示设置为NO（否）。</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.4">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.4.1">诊断帮助</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; line-height: 16.00pt; ">
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;在编程期间，可能需要根据车辆装备选择多个校准。在以下程序中，车辆装备/常规选装件信息是否可用，以确保选择了正确的校准。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;根据模块的当前软件等级或更新的发布，更换/编程控制模块时可能需要USB编程。如果应用的USB文件通过SPS无法获取，或尚未通过另一种分发方式从通用汽车公司收到，将不需要执行USB更新。</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.5">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.5.1">参考信息</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; font-size: 12pt; line-height: 16.00pt; margin-top: 10pt; margin-bottom: 3pt; ">专用工具</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">
+        <span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; "><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; ">EL-49642</span><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; ">编程支持工具 (SPS)</span></span>
+      </div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">关于当地同等工具，参见<a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A72874-2223207.html">专用工具</a>。</div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.6">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.6.1">更换和编程控制模块</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">要对一个更换的控制模块进行编程，则执行以下程序：</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; line-height: 16.00pt; ">
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td>
+                <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; ">
+                  <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">
+                    <span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">注意:</span> 在编程过程中，车辆必须保持PARK（驻车）状态。</div>
+                </div>
+                <span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">1.</span>安装<span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; "><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; ">EL-49642</span><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; ">维修编程系统编程支持工具</span></span>。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">2.</span>进入维修编程系统 (SPS)，并按屏幕上的说明进行操作。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">3.</span>在&#8220;SPS Supported Controllers（维修编程系统支持的控制器）&#8221;屏幕上，选择&#8220;K74 Human Machine Interface Control Module -&#8211; Programming （K74人机接口控制模块 - 编程）&#8221;，并按屏幕上的说明进行操作。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td>
+                <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; ">
+                  <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">
+                    <span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">注意:</span> 如果使用由通用汽车公司提供的已预先配置的USB驱动器，则转至步骤8。</div>
+                </div>
+                <span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">4.</span>将USB驱动器连接至计算机。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">5.</span>进入维修编程系统 (SPS)，并按屏幕上的说明进行操作。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">6.</span>在&#8220;SPS Supported Controllers（维修编程系统支持的控制器）&#8221;屏幕上，选择&#8220;K74 Human Machine Interface Control Module &#8211; USB File Transfer（K74人机接口控制模块 - USB文件传输）&#8221;。</span>
+                <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; ">
+                  <div class=" x-list1-1-0">
+                    <span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">注意:</span>
+                    <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-18-0 x-item-18-1">
+                      <col style="width: 0pt">
+                      <col style="width: 0pt">
+                      <col>
+                      <tbody>
+                        <tr valign="baseline">
+                          <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp; 如果没有可供USB通过维修编程系统传输的文件，则转至步骤12。</span></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-18-0 x-item-18-1">
+                      <col style="width: 0pt">
+                      <col style="width: 0pt">
+                      <col>
+                      <tbody>
+                        <tr valign="baseline">
+                          <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp; 当复制新文件时，USB驱动器上所有原有文件将被删除。</span></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">7.</span>文件传输完成后，马上将USB驱动器从计算机上移除。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">8.</span>点火开关处于ON（开启）位置，信息娱乐系统处于ON（开启）位置。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">9.</span>将USB驱动器连接至车辆的USB接口。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">10.</span>信息娱乐系统将会识别更新文件是否可用。按照信息娱乐显示器上说明进行操作，当出现提示时选择&#8220;Update（更新）&#8221;。编程过程可能需要几分钟。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">11.</span>编程完成后，移除USB驱动器。按照信息娱乐显示器上说明进行操作。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">12.</span>在编程结束后，选择维修编程系统屏幕上的&#8220;Clear DTCs（清除故障诊断码）&#8221;功能。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">13.</span>将点火开关置于&#8220;OFF（关闭）&#8221;位置，保持型附件电源 (RAP) 关闭，拔下车辆的遥控门锁发射器并使车辆静止五分钟。重新测试系统操作以确认维修。</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.7">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.7.1">重新编程控制模块</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">要对一个现有的控制模块进行编程，则执行以下程序：</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; line-height: 16.00pt; ">
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td>
+                <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; ">
+                  <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">
+                    <span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">注意:</span> 在编程过程中，车辆必须保持PARK（驻车）状态。</div>
+                </div>
+                <span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">1.</span>安装<span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; "><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; ">EL-49642</span><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; ">维修编程系统编程支持工具</span></span>。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td>
+                <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; ">
+                  <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">
+                    <span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">注意:</span> 如果使用由通用汽车公司提供的已预先配置的USB驱动器，则转至步骤6。</div>
+                </div>
+                <span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">2.</span>将USB驱动器连接至计算机。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">3.</span>进入维修编程系统 (SPS)，并按屏幕上的说明进行操作。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">4.</span>在&#8220;SPS Supported Controllers（维修编程系统支持的控制器）&#8221;屏幕上，选择&#8220;K74 Human Machine Interface Control Module &#8211; USB File Transfer（K74人机接口控制模块 - USB文件传输）&#8221;。</span>
+                <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; ">
+                  <div class=" x-list1-1-0">
+                    <span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">注意:</span>
+                    <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-18-0 x-item-18-1">
+                      <col style="width: 0pt">
+                      <col style="width: 0pt">
+                      <col>
+                      <tbody>
+                        <tr valign="baseline">
+                          <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp; 如果没有可供USB通过维修编程系统传输的文件，则转至步骤10。</span></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-18-0 x-item-18-1">
+                      <col style="width: 0pt">
+                      <col style="width: 0pt">
+                      <col>
+                      <tbody>
+                        <tr valign="baseline">
+                          <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp; 当复制新文件时，USB驱动器上所有原有文件将被删除。</span></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">5.</span>文件传输完成后，马上将USB驱动器从计算机上移除。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">6.</span>点火开关处于ON（开启）位置，信息娱乐系统处于ON（开启）位置。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">7.</span>将USB驱动器连接至车辆的USB接口。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">8.</span>信息娱乐系统将会识别更新文件是否可用。按照信息娱乐显示器上说明进行操作，当出现提示时选择&#8220;Update（更新）&#8221;。编程过程可能需要几分钟。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">9.</span>编程完成后，移除USB驱动器。按照信息娱乐显示器上说明进行操作。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">10.</span>进入维修编程系统 (SPS)，并按屏幕上的说明进行操作。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">11.</span>在&#8220;SPS Supported Controllers（维修编程系统支持的控制器）&#8221;屏幕上，选择&#8220;K74 Human Machine Interface Control Module -&#8211; Programming （K74人机接口控制模块 - 编程）&#8221;，并按屏幕上的说明进行操作。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">12.</span>在编程结束后，选择维修编程系统屏幕上的&#8220;Clear DTCs（清除故障诊断码）&#8221;功能。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">13.</span>将点火开关置于&#8220;OFF（关闭）&#8221;位置，保持型附件电源 (RAP) 关闭，拔下车辆的遥控门锁发射器并使车辆静止五分钟。重新测试系统操作以确认维修。</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.8">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.8.1">编程恢复失败</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">如果编程操作中断或失败，则执行以下步骤：</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; line-height: 16.00pt; ">
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td>
+                <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; ">
+                  <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">
+                    <span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">注意:</span> 如果USB编程被中断，则软件重新启动前需要5分钟的恢复时间。将点火开关置于&#8220;OFF（关闭）&#8221;位置的情况下等待3分钟，关闭所有检修孔盖，并停用所有车辆系统。重新开始编程的USB部分时，继续USB文件传输前，显示器将显示最多5分钟倒计时。</div>
+                </div>
+                <span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">1.</span>将点火开关置于ON（打开）位置。确保控制模块、数据链路连接器和编程工具连接牢靠且维修编程系统软件是最新版本。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">2.</span>确认控制模块能够重新编程。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "><span class=" x-emph-1-0 x-emph-1-1">如果控制模块无法重新编程</span></span></td>
+            </tr>
+          </tbody>
+        </table>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; margin-left: 15.00pt; text-indent: 0pt; line-height: 16.00pt; ">
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-1">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-1"><span style="">2.1</span>&nbsp;将点火开关置于&#8220;OFF（关闭）&#8221;位置，关闭所有检修孔盖，停用所有车辆系统一分钟，再点火开关置于&#8220;ON（打开）&#8221;位置。</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-1">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-1"><span style="">2.2</span>&nbsp;确认控制模块能够重新编程。</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">如果控制模块无法重新编程，则更换控制模块。</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">如果控制模块能够重新编程。</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-1">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-1"><span style="">2.3</span>&nbsp;全部正常。</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "><span class=" x-emph-1-0 x-emph-1-1">如果控制模块能够重新编程</span></span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">3.</span>全部正常。</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</html>
+
+<script>
+
+</script>

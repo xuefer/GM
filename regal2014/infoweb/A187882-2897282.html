@@ -1,0 +1,726 @@
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title></title>
+    <meta name="Generator" content="Arbortext Publishing Engine 5.3 M072">
+    <link rel="stylesheet" href="content.css" charset="UTF-8" type="text/css"></head>
+  <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1">
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; line-height: 1.1; margin-top: 5.00mm; margin-bottom: 5mm; font-size: 13pt; font-family: Arial; margin-top: 1.00mm; " id="styler-id1.1">
+      <span style="color: #000000; font-family: System; font-weight: normal; ">9.5.3.43 </span>DTC P0641、P0651、P0697或P06A3 (ECM)</div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.3">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.3.1">诊断说明</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; line-height: 16.00pt; ">
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;在使用本诊断程序前执行<a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A72794-2910613.html">诊断系统检查 - 车辆</a>。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;查看<a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A161235-1957622.html">诊断策略</a>中的诊断方法概述。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp; <a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A161236-1814794.html">诊断程序说明</a>提供每种诊断类别的概述。</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.4">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.4.1">故障诊断码说明</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; margin-bottom: 4pt; ">
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; margin-bottom: 4pt; ">&nbsp;&nbsp;&nbsp;&nbsp;<span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">DTC P0641:</span><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">5伏参考电压1电路</span>
+        </div>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; margin-bottom: 4pt; ">&nbsp;&nbsp;&nbsp;&nbsp;<span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">DTC P0651:</span><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">5伏参考电压2电路</span>
+        </div>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; margin-bottom: 4pt; ">&nbsp;&nbsp;&nbsp;&nbsp;<span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">DTC P0697:</span><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">5伏参考电压3电路</span>
+        </div>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; margin-bottom: 4pt; ">&nbsp;&nbsp;&nbsp;&nbsp;<span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">DTC P06A3:</span><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">5伏参考电压4电路</span>
+        </div>
+      </div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.5">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.5.1">电路/系统说明</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">发动机控制模块 (ECM) 有4条内部5伏参考电压电路。每个内部参考电压电路为多个传感器提供5伏参考电压。外部5伏参考电压电路对搭铁短路或对电压短路，将会影响连接到同一内部5伏参考电压电路上的其他部件。</div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.6">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.6.1">运行故障诊断码的条件</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">当点火电压高于6.4伏时，这些故障诊断码将持续运行。</div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.7">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.7.1">设置故障诊断码的条件</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">发动机控制模块检测到任何一个5伏参考电压电路对搭铁短路或对电压短路并持续0.5秒以上。</div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.8">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.8.1">设置故障诊断码时采取的操作</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">DTC P0641、P0651、P0697和P06A3是A类故障诊断码。</div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.9">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.9.1">清除故障诊断码的条件</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">DTC P0641、P0651、P0697和P06A3是A类故障诊断码。</div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.10">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.10.1">诊断帮助</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; ">
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-family: Arial; margin-top: 6.00pt; " id="styler-id1.10.2.1">DTC P0641</div>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; margin-left: 8mm; text-indent: 0pt; ">5伏参考电压1电路向下列传感器提供5伏电压：</div>
+      </div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; line-height: 16.00pt; ">
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;空调制冷剂压力传感器</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;排气凸轮轴位置传感器</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;油压传感器</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;燃油导轨压力传感器</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;进气凸轮轴位置传感器</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;多功能进气传感器</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; ">
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-family: Arial; margin-top: 6.00pt; " id="styler-id1.10.4.1">DTC P0651</div>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; margin-left: 8mm; text-indent: 0pt; ">5伏参考电压2电路向下列传感器提供5伏电压：</div>
+      </div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; line-height: 16.00pt; ">
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;制动踏板位置传感器</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;曲轴位置传感器</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; ">
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-family: Arial; margin-top: 6.00pt; " id="styler-id1.10.6.1">DTC P0697</div>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; margin-left: 8mm; text-indent: 0pt; ">5伏参考电压3电路向下列传感器提供5伏电压：</div>
+      </div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; line-height: 16.00pt; ">
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;歧管绝对压力传感器</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;加速踏板位置传感器2</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; ">
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-family: Arial; margin-top: 6.00pt; " id="styler-id1.10.8.1">DTC P06A3</div>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; margin-left: 8mm; text-indent: 0pt; ">5伏参考电压4电路向下列传感器提供5伏电压：</div>
+      </div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; line-height: 16.00pt; ">
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;节气门位置传感器</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;加速踏板位置传感器1</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">每次从受影响的5伏参考电压电路上断开一个部件，同时观察故障诊断仪上的&#8220;5V Reference Circuit Status（5伏参考电压电路状态）&#8221;参数，这样可以帮助查找该故障。断开故障源后，故障诊断仪的参数将从&#8220;Malfunction（故障）&#8221;变为&#8220;OK（正常）&#8221;。如果断开了所有的5伏参考电压部件后仍指示故障，则故障可能位于线束中。</div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.11">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.11.1">参考信息</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; font-size: 12pt; line-height: 16.00pt; margin-top: 10pt; margin-bottom: 3pt; ">示意图参照</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; "> 
+        <a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A18269-3459710.html">发动机控制示意图 (LAF)</a> 
+      </div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; font-size: 12pt; line-height: 16.00pt; margin-top: 10pt; margin-bottom: 3pt; ">连接器端视图参照</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; "> 
+        <a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A164814-3444098.html">部件连接器端视图</a> 
+      </div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; font-size: 12pt; line-height: 16.00pt; margin-top: 10pt; margin-bottom: 3pt; ">部件视图参照</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; "> 
+        <a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A164808-3423175.html">动力总成部件视图</a> 
+      </div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; font-size: 12pt; line-height: 16.00pt; margin-top: 10pt; margin-bottom: 3pt; ">电气信息参考</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; line-height: 16.00pt; ">
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp; <a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A62194-2414706.html">电路测试</a> </span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp; <a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A61973-2413364.html">连接器修理</a> </span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp; <a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A62112-2017709.html">间歇性故障和连接不良的测试</a> </span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp; <a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A61965-2160816.html">接线修理</a> </span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; font-size: 12pt; line-height: 16.00pt; margin-top: 10pt; margin-bottom: 3pt; ">故障诊断码类型参考</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; "> 
+        <a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A161179-2223447.html">动力总成故障诊断码 (DTC) 类型定义</a> 
+      </div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; font-size: 12pt; line-height: 16.00pt; margin-top: 10pt; margin-bottom: 3pt; ">故障诊断仪参考</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; "> 有关故障诊断仪的信息，请参见<a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A72864-3516846.html">控制模块参考</a>
+      </div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.12">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.12.1">电路/系统检验</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; line-height: 16.00pt; ">
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">1.</span>将点火开关置于&#8220;ON（打开）&#8221;位置。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">2.</span>确认故障诊断仪上的所有&#8220;5V Reference Circuit Status（5伏参考电压电路状态）&#8221;参数未显示&#8220;Malfunction（故障）&#8221;。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "> <span class=" x-emph-1-0 x-emph-1-1">如果显示故障</span> </span>
+                <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">参见&#8220;电路/系统测试&#8221;。</div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "> <span class=" x-emph-1-0 x-emph-1-1">如果未显示故障</span> </span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">3.</span>在&#8220;运行故障诊断码的条件&#8221;下操作车辆，或在从&#8220;冻结故障状态/故障记录&#8221;数据中查到的条件下操作车辆。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">4.</span>确认未设置故障诊断码。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "> <span class=" x-emph-1-0 x-emph-1-1">如果设置了故障诊断码</span> </span>
+                <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">参见&#8220;电路/系统测试&#8221;。</div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "> <span class=" x-emph-1-0 x-emph-1-1">如果未设置故障诊断码</span> </span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">5.</span>全部正常。</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.13">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.13.1">电路/系统测试</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; ">
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">
+          <span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">注意:</span>当断开部件时，会设置其他故障诊断码。</div>
+      </div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; line-height: 16.00pt; ">
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">1.</span>将点火开关置于&#8220;OFF（关闭）&#8221;位置，断开相应故障诊断码所对应的所有相关传感器处的线束连接器。参见&#8220;诊断帮助&#8221;。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">2.</span>将点火开关置于&#8220;ON（打开）&#8221;位置。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">3.</span>测试每一5伏参考电压电路与搭铁之间的电压是否为4.8-5.2伏。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "> <span class=" x-emph-1-0 x-emph-1-1">如果小于4.8伏</span> </span></td>
+            </tr>
+          </tbody>
+        </table>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; margin-left: 15.00pt; text-indent: 0pt; line-height: 16.00pt; ">
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-1">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-1"><span style="">3.1</span>&nbsp;将点火开关置于&#8220;OFF（关闭）&#8221;位置，断开K20发动机控制模块处的线束连接器。</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-1">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-1"><span style="">3.2</span>&nbsp;测试每一相关部件所对应的5伏参考电压电路和搭铁之间的电阻是否为无穷大。</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">如果电阻不为无穷大，则修理电路上的对搭铁短路故障。</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">如果电阻为无穷大，则更换K20&#8220;发动机控制模块&#8221;。</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "> <span class=" x-emph-1-0 x-emph-1-1">如果大于5.2伏</span> </span></td>
+            </tr>
+          </tbody>
+        </table>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; margin-left: 15.00pt; text-indent: 0pt; line-height: 16.00pt; ">
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-1">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-1"><span style="">3.1</span>&nbsp;将点火开关置于&#8220;OFF（关闭）&#8221;位置，断开K20发动机控制模块处的线束连接器。将点火开关置于&#8220;ON（打开）&#8221;位置。</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-1">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-1"><span style="">3.2</span>&nbsp;测试每一相关部件所对应的5伏参考电压电路和搭铁之间的电压是否低于1伏。</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">如果是1伏或更高，则修理电路上的对电压短路故障。</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">如果小于1伏，则更换K20发动机控制模块。</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "> <span class=" x-emph-1-0 x-emph-1-1">如果在4.8-5.2伏之间</span> </span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td>
+                <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; ">
+                  <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">
+                    <span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">注意:</span>某个部件的信号电路对电压或搭铁短路可能导致此故障诊断码的设置。</div>
+                </div>
+                <span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">4.</span>当逐一连接与5伏参考电压电路相关的每个部件时，确认故障诊断仪上相应的&#8220;5 V Reference 1, 2, 3, or 4 Circuit Status（5伏参考电压1、2、3或4电路状态）&#8221;显示&#8220;OK（正常）&#8221;。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "> <span class=" x-emph-1-0 x-emph-1-1">如果在连接某个部件时未显示&#8220;OK（正常）&#8221;</span> </span>
+                <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">测试该部件的信号电路是否对搭铁或对电压短路。如果电路测试正常，则更换部件。</div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "><span class=" x-emph-1-0 x-emph-1-1">如果在所有部件连接后显示&#8220;OK（正常）&#8221;</span></span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">5.</span>全部正常。</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.14">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.14.1">维修指南</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">完成修理后执行<a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A143214-1556771.html">诊断修理检验</a>。</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; line-height: 16.00pt; ">
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp; <a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A168897-2692087.html">带位置传感器总成的油门踏板更换</a> </span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp; <a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A48236-2198232.html">空调 (A/C) 制冷剂压力传感器的更换 (LLU)</a><a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A48236-2159766.html">空调 (A/C) 制冷剂压力传感器的更换 (LDK)</a><a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A48236-2906151.html">空调 (A/C) 制冷剂压力传感器的更换 (LAF, LTD)</a> </span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;<a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A79892-2209648.html">制动踏板位置传感器的更换</a></span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp; <a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A144097-2694233.html">凸轮轴位置传感器的更换 - 进气</a> </span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp; <a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A144098-2694234.html">凸轮轴位置传感器的更换 - 排气</a> </span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp; <a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A18136-2694202.html">曲轴位置传感器的更换</a> </span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp; <a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A168905-2694009.html">燃油喷射燃油导轨油压传感器的更换</a> </span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;<a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A204486-2387802.html">燃油压力传感器的更换 - 燃油供给管</a></span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp; <a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A18218-2580989.html">歧管绝对压力传感器的更换</a> </span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp; 参见<a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A143754-2692163.html">带进气温度传感器的质量空气流量传感器的更换</a>以了解更换多功能进气传感器的信息。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp; <a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A18234-2692088.html">节气门总成的更换</a> </span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp; 发动机控制模块的更换、编程和设置，参见<a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A72864-3516846.html">控制模块参考</a>。</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</html>
+
+<script>
+
+</script>

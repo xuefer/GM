@@ -1,0 +1,802 @@
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title></title>
+    <meta name="Generator" content="Arbortext Publishing Engine 5.3 M072">
+    <link rel="stylesheet" href="content.css" charset="UTF-8" type="text/css"></head>
+  <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1">
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; line-height: 1.1; margin-top: 5.00mm; margin-bottom: 5mm; font-size: 13pt; font-family: Arial; margin-top: 1.00mm; " id="styler-id1.1">
+      <span style="color: #000000; font-family: System; font-weight: normal; ">9.4.3.92 </span>燃油系统诊断 (LDK)</div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.3">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.3.1">诊断说明</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; line-height: 16.00pt; ">
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;在使用本诊断程序前执行<a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A72794-2910613.html">诊断系统检查 - 车辆</a>。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;查看<a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A161235-1957622.html">诊断策略</a>中的诊断方法概述。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp; <a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A161236-1814794.html">诊断程序说明</a>提供每种诊断类别的概述。</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.4">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.4.1">电路/系统说明</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">当发动机控制模块检测到点火开关打开时，发动机控制模块 (ECM) 向燃油泵电源控制模块提供电压。除非发动机在起动或运转，否则发动机控制模块将向燃油泵电源控制模块提供2秒钟电压。收到该电压时，燃油泵电源控制模块将燃油泵的搭铁开关闭合，同时向燃油箱内的燃油泵模块提供变化的电压，以维持需要的燃油导轨压力。</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">燃油系统采用电子无回路请求式设计。无回路燃油系统不使热燃油从发动机返回至油箱，以降低油箱的内部温度。油箱内部温度的降低导致较低的蒸发排放。</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">燃油箱可储存燃油。涡轮式电动燃油泵连接至燃油箱内的燃油泵模块。燃油泵通过燃油滤清器和燃油供油管路向高压燃油泵提供燃油。燃油泵也向燃油泵模块底部的文丘里泵提供燃油。文丘里泵的功能是向燃油泵模块储油罐加注燃油。燃油泵模块包括一个逆流单向阀。单向阀保持燃油供油管中的燃油压力，以防止起动时间过长。</div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.5">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.5.1">诊断帮助</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">观察缺火计数器或执行&#8220;燃油喷射器平衡测试&#8221;，以帮助确认燃油喷射器是否泄漏。</div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.6">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.6.1">参考信息</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; font-size: 12pt; line-height: 16.00pt; margin-top: 10pt; margin-bottom: 3pt; ">说明与操作</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; "> 
+        <a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A16129-2173348.html">燃油系统的说明 (LTD)</a><a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A16129-3483420.html">燃油系统的说明 (LDK)</a> 
+      </div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; font-size: 12pt; line-height: 16.00pt; margin-top: 10pt; margin-bottom: 3pt; ">电气信息参考</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; line-height: 16.00pt; ">
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp; <a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A62194-2414706.html">电路测试</a> </span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp; <a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A61973-2413364.html">连接器修理</a> </span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp; <a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A62112-2017709.html">间歇性故障和连接不良的测试</a> </span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp; <a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A61965-2160816.html">接线修理</a> </span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; font-size: 12pt; line-height: 16.00pt; margin-top: 10pt; margin-bottom: 3pt; ">故障诊断仪参考</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; "> 有关故障诊断仪的信息，请参见<a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A72864-3516846.html">控制模块参考</a>
+      </div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; font-size: 12pt; line-height: 16.00pt; margin-top: 10pt; margin-bottom: 3pt; ">专用工具</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; line-height: 16.00pt; ">
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp; <span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; "><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; ">CH-48027</span><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; ">数字式压力表</span></span> </span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp; <span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; "><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; ">EN 37287</span><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; ">燃油管路断开适配器</span></span> </span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;关于当地同等工具，参见<a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A16063-2492744.html">专用工具（诊断工具）</a><a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A16063-3229296.html">专用工具（机械工具）</a>。</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.7">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.7.1">电路/系统检验</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; ">
+        <div class=" x-list1-5-0">
+          <span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">注意:</span>
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;在执行该诊断以前，检修所有燃油系统相关故障诊断码（除P2635外）。</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;在执行前，检查燃油系统有无损坏或外部泄漏。</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;在进行此诊断前，确认油箱中燃油是否充足。</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;可能需要指令&#8220;燃油泵启用&#8221;开启数次，以尽量获得最高的燃油压力。</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;继续进行本测试前，请查阅&#8220;用户手册CH-48027-5&#8221;的&#8220;安全信息说明&#8221;。</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; line-height: 16.00pt; ">
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">1.</span>将点火开关置于&#8220;OFF（关闭）&#8221;位置，所有附件关闭，安装<span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; "><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; ">CH-48027</span><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; ">数字式压力表</span></span>。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td>
+                <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; ">
+                  <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">
+                    <span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">注意:</span>如果发动机冷却液温度高于60&#176;C (150&#176;F)，则切勿执行&#8220;燃油系统诊断&#8221;。高温燃油沸腾可能导致高燃油压力读数。发动机关闭时，燃油压力可能会增加到限压调节阀的设定值之上，即690千帕（100磅力/平方英寸）&#177; 5%。</div>
+                </div>
+                <span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">2.</span>将点火开关置于&#8220;ON（打开）&#8221;位置，关闭发动机，用故障诊断仪指令&#8220;Fuel Pump Enable（燃油泵启用）&#8221;开启几次。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">3.</span>确认燃油泵运行时燃油压力在345-650千帕（50-94磅/平方英寸）之间。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "><span class=" x-emph-1-0 x-emph-1-1">如果低于345千帕（50磅/平方英寸）</span></span>
+                <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">参见&#8220;电路/系统测试 - 燃油压力过低&#8221;。</div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "><span class=" x-emph-1-0 x-emph-1-1">如果高于650&#59914;千帕（94磅/平方英寸）</span></span>
+                <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">更换G12燃油泵。</div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "><span class=" x-emph-1-0 x-emph-1-1">如果在345-650千帕（50-94磅/平方英寸）之间</span></span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">4.</span>燃油泵关闭后，确认燃油压力减少到600千帕（87磅/平方英寸）以下。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "><span class=" x-emph-1-0 x-emph-1-1">如果高于600&#59914;千帕（87磅/平方英寸）</span></span>
+                <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">更换G12燃油泵。</div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "><span class=" x-emph-1-0 x-emph-1-1">如果低于600千帕（87磅/平方英寸）</span></span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">5.</span>确认燃油压力在1分钟内下降不超过34千帕（5磅/平方英寸）。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "><span class=" x-emph-1-0 x-emph-1-1">如果高于34&#59914;千帕（5磅/平方英寸）</span></span>
+                <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">参见&#8220;电路/系统测试 - 燃油压力因泄漏下降&#8221;。</div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "><span class=" x-emph-1-0 x-emph-1-1">如果低于34千帕（5磅/平方英寸）</span></span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">6.</span>卸去燃油压力至69千帕（10磅/平方英寸）。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">7.</span>确认燃油压力在5分钟内下降不超过14千帕（2磅力/平方英寸）。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "><span class=" x-emph-1-0 x-emph-1-1">如果高于14&#59914;千帕（2磅/平方英寸）</span></span>
+                <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">更换G12燃油泵。</div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "><span class=" x-emph-1-0 x-emph-1-1">如果低于14千帕（2磅/平方英寸）</span></span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">8.</span>发动机怠速运转。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">9.</span>确认故障诊断仪上的&#8220;Fuel Pressure Sensor（燃油压力传感器）&#8221;参数在300&#8211;400千帕（43&#8211;58磅/平方英寸）之间。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "><span class=" x-emph-1-0 x-emph-1-1">如果低于300千帕（43磅/平方英寸）</span></span>
+                <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">参见&#8220;电路/系统测试 - 燃油压力过低&#8221;。</div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "><span class=" x-emph-1-0 x-emph-1-1">如果高于400&#59914;千帕（58磅/平方英寸）</span></span>
+                <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">更换G12燃油泵。</div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "><span class=" x-emph-1-0 x-emph-1-1">如果在300-400千帕（43-58磅/平方英寸）之间</span></span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">10.</span>确认故障诊断仪上的&#8220;Short Term Fuel Pump Trim（短期燃油泵调节）&#8221;和&#8220;Long Term Fuel Pump Trim（长期燃油泵调节）&#8221;相乘时小于1.5。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "> <span class=" x-emph-1-0 x-emph-1-1">如果大于1.5</span> </span>
+                <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">参见&#8220;电路/系统测试 - 燃油压力过低&#8221;。</div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "><span class=" x-emph-1-0 x-emph-1-1">如果小于1.5</span></span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">11.</span>在车辆不同负载下运行时，确认故障诊断仪上的&#8220;Fuel Pressure Sensor（燃油压力传感器）&#8221;和&#8220;Desired Fuel Pressure（期望的燃油压力）&#8221;之间的差值，在300千帕（43.5磅/平方英寸）请求时是否在45千帕（6.5磅/平方英寸）以内，或在400千帕（58磅/平方英寸）请求时是否在60千帕（8.7磅/平方英寸）以内。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "> <span class=" x-emph-1-0 x-emph-1-1">如果大于45千帕（6.5磅/平方英寸）/60千帕（8.7磅/平方英寸）</span> </span>
+                <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">参见&#8220;电路/系统测试 - 燃油压力下降&#8221;。</div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "><span class=" x-emph-1-0 x-emph-1-1">如果小于45千帕（6.5磅/平方英寸）/60千帕（8.7磅/平方英寸）</span></span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">12.</span>如果燃油系统部件测试正常，则参见<a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A16328-2921091.html">症状 - 发动机控制装置</a>、<a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A66445-2262620.html">燃油喷射器电磁线圈测试 (LDK)</a><a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A66445-2906586.html">燃油喷射器电磁线圈测试 (LTD)</a>以及<a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A16118-2460199.html">燃油喷射器平衡测试 (LDK)</a><a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A16118-2906587.html">燃油喷射器平衡测试 (LTD)</a>。</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.8">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.8.1">电路/系统测试</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; line-height: 16.00pt; ">
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; line-height: 1.1; margin-top: 5.00mm; margin-bottom: 5mm; font-family: Arial; " id="styler-id1.8.2.1">燃油压力过低</div>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">1.</span>确认未出现下列故障：</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; margin-left: 15.00pt; text-indent: 0pt; line-height: 16.00pt; ">
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-2">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;燃油滤清器堵塞或阻塞</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-2">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;燃油供油管堵塞</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-2">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;检查燃油泵的线束连接器和搭铁电路是否接触不良。</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "><span class=" x-emph-1-0 x-emph-1-1">如果存在任一故障</span></span>
+                <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">必要时进行修理。</div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "><span class=" x-emph-1-0 x-emph-1-1">如果不存在任何情况</span></span>
+                <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">更换G12燃油泵。</div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.9">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; line-height: 16.00pt; ">
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; line-height: 1.1; margin-top: 5.00mm; margin-bottom: 5mm; font-family: Arial; " id="styler-id1.9.1.1">燃油压力因泄漏下降</div>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">1.</span>点火开关置于&#8220;OFF（关闭）&#8221;位置，卸去燃油压力。参见<a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A16149-2195344.html">释放燃油压力</a>。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">2.</span>在底盘供油软管和发动机舱供油管之间安装<span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; "><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; ">EN 37287</span><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; ">适配器</span></span>。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">3.</span>打开<span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; "><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; ">EN 37287</span><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; ">适配器</span></span>上的阀门。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">4.</span>将点火开关置于&#8220;ON（打开）&#8221;位置，用故障诊断仪指令&#8220;燃油泵启用&#8221;打开，并放出<span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; "><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; ">CH 48027</span><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; ">量表</span></span>内的空气。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">5.</span>用故障诊断仪器指令&#8220;燃油泵启用&#8221;打开然后关闭。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">6.</span>关闭<span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; "><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; ">EN 37287</span><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; ">适配器</span></span>上的阀门。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">7.</span>确认燃油压力在1分钟内下降不超过34千帕（5磅/平方英寸）。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "><span class=" x-emph-1-0 x-emph-1-1">如果高于34&#59914;千帕（5磅/平方英寸）</span></span>
+                <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">找到并更换泄漏的Q17喷油器。</div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "><span class=" x-emph-1-0 x-emph-1-1">如果低于34千帕（5磅/平方英寸）</span></span>
+                <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">更换G12燃油泵。</div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.10">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; line-height: 16.00pt; ">
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; line-height: 1.1; margin-top: 5.00mm; margin-bottom: 5mm; font-family: Arial; " id="styler-id1.10.1.1">燃油压力下降</div>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-1">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-1"><span style="">1.</span>确认未出现下列故障：</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; margin-left: 15.00pt; text-indent: 0pt; line-height: 16.00pt; ">
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-2">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;燃油滤清器堵塞或阻塞</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-2">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;燃油供油管堵塞</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-6-0 x-item-6-2">
+            <col style="width: 0pt">
+            <col style="width: 0pt">
+            <col>
+            <tbody>
+              <tr valign="baseline">
+                <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-2-0 x-ptxt-2-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;检查燃油泵的线束连接器和搭铁电路是否接触不良。</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "><span class=" x-emph-1-0 x-emph-1-1">如果存在任一故障</span></span>
+                <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">必要时进行修理。</div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-size: 12pt; line-height: 16.00pt; table-layout: fixed; margin-left: 0pt; text-indent: 0pt; ">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; "><span class=" x-emph-1-0 x-emph-1-1">如果不存在任何情况</span></span>
+                <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 1.00pt; margin-bottom: 1.00pt; font-family: Arial; font-size: 12pt; line-height: 16.00pt; ">更换G12燃油泵。</div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.11">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.11.1">维修指南</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">完成诊断程序后执行<a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A143214-1556771.html">诊断修理检验</a>。</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; line-height: 16.00pt; ">
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp; <a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A162119-2197786.html">直接喷油器的更换</a> </span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp; <a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A161779-2236809.html">燃油供油管的更换 (LDK/A20NHT)</a><a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A161779-2176399.html">燃油供油管的更换 (LTD)</a><a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A161779-2716892.html">燃油供油管的更换（LDK，前部）</a> </span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp; <a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A16122-2894082.html">燃油滤清器的更换</a> </span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp; <a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A144076-2770966.html">燃油泵模块的更换</a> </span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</html>
+
+<script>
+
+</script>

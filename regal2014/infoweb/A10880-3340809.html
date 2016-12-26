@@ -1,0 +1,739 @@
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title></title>
+    <meta name="Generator" content="Arbortext Publishing Engine 5.3 M072">
+    <link rel="stylesheet" href="content.css" charset="UTF-8" type="text/css"></head>
+  <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1">
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; line-height: 1.1; margin-top: 5.00mm; margin-bottom: 5mm; font-size: 13pt; font-family: Arial; margin-top: 1.00mm; " id="styler-id1.1">
+      <span style="color: #000000; font-family: System; font-weight: normal; ">9.2.5.2 </span>巡航控制说明与操作（自适应巡航控制）</div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.3">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.3.1">自适应巡航控制 (ACC)</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">自适应巡航控制系统 (ACC) 是一个增强型的巡航控制系统，能够感知前进方向的交通情况并作出反应。与许多车辆上使用的普通巡航控制系统相比，自适应巡航控制系统的主要功能增强处在于能够探测自适应巡航控制系统车辆路径中是否有车辆存在。自适应巡航控制系统保留了已有的巡航控制功能，能够将车速控制为驾驶员选定的车速。然而，自适应巡航控制系统允许驾驶员设置和保持在自适应巡航控制车辆路径中与前面最近车辆的跟随车距。巡航控制车距传感器模块计算一个跟随速度极限值，以确保能够保持与前方车辆的可接受距离。当前方车辆的行驶速度变慢时，自适应巡航控制系统会自动调整自适应巡航控制车辆的车速。在需要保持自适应巡航控制车辆的设置跟随车距时，自适应巡航控制系统会在无驾驶员输入信号的情况下进行有限的自动刹车和节气门控制。前方车辆的车速和加速度、自适应巡航控制车辆的车速和加速度以及两车之间的距离，是巡航控制车距传感器模块用于确定自适应巡航控制跟随车速极限值的几大因素。当路径前方无车辆时，自适应巡航控制车辆在无驾驶员输入信号的情况下将加速到驾驶员最初选定的设置车速。</div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.4">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.4.1">自适应巡航控制 (ACC) 系统的说明</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">自适应巡航控制 (ACC) 系统依赖于车辆上的各种模块来实现其功能，每个模块执行一种对于自适应巡航控制系统的正确运行至关重要的功能。如果任何部件出现故障，则自适应巡航控制将无法运行。模块之间通过高速GMLAN串行数据电路进行通信。GMLAN使用控制器局域网络 (CAN) 通信协议。以下是巡航控制车距传感器模块和其他相关部件的功能说明：</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; ">
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-family: Arial; margin-top: 6.00pt; " id="styler-id1.4.3.1">巡航控制车距传感器模块</div>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; margin-left: 8mm; text-indent: 0pt; ">巡航控制车距传感器模块含有雷达和控制器。巡航控制车距传感器模块利用雷达来识别和分类道路环境中的目标。雷达通过扫描道路环境来探测其指定视域内的目标。然后控制器通过GMLAN串行数据电路向发动机控制模块 (ECM) 和电子制动控制模块(EBCM) 发送节气门和/或刹车指令，以根据雷达数据控制车辆加速/减速。发动机控制模块和电子制动控制模块则提供正确巡航速度调整所需的节气门控制和自动刹车。以下是巡航控制车距传感器模块的功能列表：</div>
+      </div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; line-height: 16.00pt; ">
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;雷达通过处理道路环境来获得自适应巡航控制车辆的前方车辆相关数据。雷达的主要功能有：探测、参数估算、跟踪、目标分类和诊断。当探测到某个目标时，控制器将计算目标距离、距离变化率、加速度和方位角参数。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;巡航控制车距传感器模块自动进行自适应巡航控制状态处理 - 距离控制或速度控制。自适应巡航控制系统具有2种可能的运行状态 - 巡航状态或跟随状态。正常的运行状态为巡航状态，在此状态下车速控制为与驾驶员选定的设定车速相匹配。当雷达识别到前方目标后，自适应巡航控制系统将自动转换为跟随车速状态，提供跟随前方目标车辆的适合的车道距离。前方车辆的车速和加速度、自适应巡航控制车辆的车速和加速度以及两车之间的距离，将用于确定自适应巡航控制跟随车速极限值。自适应巡航控制跟随车速极限值将确保与前面车辆保持某个可接受的距离。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;巡航控制车距传感器模块确定由发动机控制模块进行节气门控制的跟随车速极限值。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;巡航控制车距传感器模块判定在电子制动控制模块和发动机控制模块之间是否进行自适应巡航控制系统制动或节气门控制。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;在自动刹车过程中，巡航控制车距传感器模块请求激活刹车灯。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;巡航控制车距传感器模块向车辆驾驶员提供运行反馈信息。巡航控制车距传感器模块向信号装置发送信号，并向组合仪表和驾驶员信息中心发送需显示的信息。</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; ">
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-family: Arial; margin-top: 6.00pt; " id="styler-id1.4.5.1">车身控制模块 (BCM)</div>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; margin-left: 8mm; text-indent: 0pt; ">以下是车身控制模块提供的自适应巡航控制系统功能：</div>
+      </div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; line-height: 16.00pt; ">
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;车身控制模块为高速GMLAN串行数据电路提供转换网关。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;车身控制模块读取所有巡航控制开关和车距开关数据。巡航控制车距传感器模块通过经由GMLAN串行数据电路传输的车身控制模块开关状态信息监测各种用户操作开关。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;在自动刹车过程中，车身控制模块根据来自于巡航控制车距传感器模块的GMLAN信息点亮刹车灯。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;车身控制模块测量制动踏板的位置，并将制动踏板行程状态通过GMLAN串行数据电路发送给发动机控制模块。当驾驶员踩下制动踏板刹车后，发动机控制模块将断开自适应巡航控制系统。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;车身控制模块可以作为组合仪表和驾驶员信息中心的一种网关。车身控制模块将根据巡航控制车距传感器模块发送的高速GMLAN串行数据信息产生可视警告。</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; ">
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-family: Arial; margin-top: 6.00pt; " id="styler-id1.4.7.1">发动机控制模块 (ECM)</div>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; margin-left: 8mm; text-indent: 0pt; ">以下是发动机控制模块执行的自适应巡航控制系统功能：</div>
+      </div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; line-height: 16.00pt; ">
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;发动机控制模块为自适应巡航控制系统提供电子节气门控制。发动机控制模块也负责确定驾驶员何时踩下了加速踏板来超控自适应巡航控制节气门位置。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;发动机控制模块处理所收到的车身控制模块通过GMLAN串行数据电路发送的巡航控制开关请求。自适应巡航控制系统的启用和断开由发动机控制模块执行。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;发动机控制模块确定驾驶员选定的车速。除非自适应巡航控制模块请求较低的车速，否则发动机控制模块将把车速控制为驾驶员选定的设置车速。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;发动机控制模块允许在未断开自适应巡航控制系统的情况下自动刹车。</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; ">
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-family: Arial; margin-top: 6.00pt; " id="styler-id1.4.9.1">防抱死制动系统 (ABS)</div>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; margin-left: 8mm; text-indent: 0pt; ">以下是电子制动控制模块执行的自适应巡航控制系统功能：</div>
+      </div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; line-height: 16.00pt; ">
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;电子制动控制模块控制防抱死制动系统的运行。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;电子制动控制模块为自适应巡航控制系统提供自动刹车功能。巡航控制车距传感器模块将通过高速GMLAN串行数据电路请求车辆减速。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;电子制动控制模块确定驾驶员何时施加了制动压力。电子制动控制模块将这一状况通过GMLAN串行数据电路发送给车身控制模块。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;当驾驶员踩下油门来超控节气门时，电子制动控制模块将释放车辆自动刹车装置。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;电子制动控制模块将预测刹车温度。由于自动刹车，制动系统可能会过热。当制动器过热时，电子制动控制模块请求发动机控制模块暂时关闭自适应巡航控制系统，直到制动器冷却到正常的工作温度。</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">参见<a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A1615-3400874.html">防抱死制动系统的说明和操作</a>。</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; ">
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-family: Arial; margin-top: 6.00pt; " id="styler-id1.4.12.1">变速器控制模块 (TCM)</div>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; margin-left: 8mm; text-indent: 0pt; ">变速器控制模块 (TCM) 提供降速换档来保护制动器。当变速器控制模块检测到驾驶员的刹车动作或自适应巡航控制系统的自动刹车动作时，变速器控制模块将降低车辆变速器的档位来增大发动机的制动力。从而有助于减小制动动作，延长制动片的使用寿命，并减轻制动系统的过热情况。</div>
+      </div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; ">
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-family: Arial; margin-top: 6.00pt; " id="styler-id1.4.13.1">驾驶员信息中心</div>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; margin-left: 8mm; text-indent: 0pt; ">驾驶员信息中心是组合仪表的一部分，能够显示自适应巡航控制系统的警告消息。巡航控制车距传感器模块通过向车身控制模块发送一个GMLAN请求，要求在驾驶员信息中心上显示消息。车身控制模块向组合仪表发送一个GMLAN串行数据请求，要求显示警告消息。如果驾驶员已获知了该消息并且问题已得到了解决，驾驶员信息中心将关闭该消息。如果驾驶员信息中心出现故障，则自适应巡航控制系统将不会运行。以下是可能在驾驶员信息中心上显示的自适应巡航控制系统消息：</div>
+      </div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; line-height: 16.00pt; ">
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;Service ACC（维修自适应巡航控制系统）</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;Front Radar Blocked Clean Front of Vehicle（前雷达堵塞，清洁车辆前部）</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; ">
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-family: Arial; margin-top: 6.00pt; " id="styler-id1.4.15.1">制动踏板位置传感器</div>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; margin-left: 8mm; text-indent: 0pt; ">车身控制模块监测制动踏板位置传感器，以确定驾驶员何时踩下制动踏板向制动器施加压力。制动踏板位置传感器接收到车身控制模块提供的低电平参考电压信号和5伏参考电压。当踩下制动器时，制动踏板位置传感器通过制动踏板位置传感器信号电路向车身控制模块提供一个信号。车身控制模块使用该信号决定何时指令启用刹车灯。车身控制模块通过GMLAN串行数据电路将信号连续发送给电子制动控制模块和发动机控制模块，反应制动踏板的位置状态。包括启用自适应巡航控制系统所需的制动器初始行程。自适应巡航控制系统只有在制动踏板初始行程信号有效并且车身控制模块接收到该信号时才会启用。在自适应巡航控制系统启用时，如果车身控制模块制动踏板位置信号表明驾驶员施加了制动踏板压力，发动机控制模块将会立即停用自适应巡航控制系统。自适应巡航控制系统的重新启用需要驾驶员按下设置或恢复开关。关于制动踏板压力传感器的更多信息，参见<a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A135694-2172958.html">制动踏板位置传感器的校准</a>和<a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A53212-3633621.html">车外照明系统的说明与操作</a>。</div>
+      </div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; ">
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-family: Arial; margin-top: 6.00pt; " id="styler-id1.4.16.1">加速踏板</div>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; margin-left: 8mm; text-indent: 0pt; ">如果路径中的车辆行驶速度较慢，发动机控制模块将通过节气门控制使自适应巡航控制车辆减速，以保持一定的车距和车速，同时电子制动控制模块将点亮自动刹车灯。在自动刹车过程中，巡航控制车距传感器模块将指令发动机控制模块从当前受控的巡航位置释放节气门。自动刹车结束时，发动机控制模块将把车速控制为当前设定的车速。当自适应巡航控制车辆的驾驶员希望获得比当前节气门位置车速更快的速度而踩下加速踏板时，将发生驾驶员节气门超控情况。例如，自适应巡航控制车辆驾驶员为通过演习而踩油门。发动机控制模块持续监测节气门，并报告节气门超控情况。如果节气门未出现超控情况，则允许进行自动刹车。如果发动机控制模块检测到节气门超控情况，则不允许进行自动刹车，以免影响车辆加速。</div>
+      </div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.5">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.5.1">巡航控制开关</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">从功能上来看，巡航控制开关是自适应巡航控制 (ACC) 系统和常规巡航控制系统共有的一大共同特征。如果任何巡航开关出现故障，则自适应巡航控制系统将不会运行。巡航控制开关包含以下巡航控制功能开关：</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; line-height: 16.00pt; ">
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;接通/关闭开关</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;设置/减速开关</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;恢复/增速开关</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">巡航控制功能开关设计为梯型电阻，每个开关功能具有一个不同的电阻值。当任何巡航控制开关功能启用时，车身控制模块通过巡航控制开关信号电路检测到一个预定的电压值。然后将车身控制模块检测到的相关巡航控制功能信号作为GMLAN串行数据电路信息发送给发动机控制模块 (ECM)。发动机控制模块收到该信息时提供车身控制模块请求的巡航控制功能。发动机控制模块负责识别车身控制模块发送的巡航控制开关请求，并作出响应。发动机控制模块使用巡航控制功能开关来向巡航控制车距传感器模块传达驾驶员选定的车速。驾驶员选定的车速通过GMLAN串行数据电路传达给巡航控制车距传感器模块和车身控制模块。自适应巡航控制系统根据以下巡航控制功能开关的启用来开启和调节车速：</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; ">
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-family: Arial; margin-top: 6.00pt; " id="styler-id1.5.5.1">接通/关闭开关</div>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; margin-left: 8mm; text-indent: 0pt; ">车身控制模块监测开关信号电路，以确定何时停用或启用接通/关闭开关。车身控制模块在开关信号电路上检测到一个预定电压值。然后将接通/关闭开关状态通过GMLAN串行数据电路发送给发动机控制模块。发动机控制模块将接通/关闭开关输入状态发送给巡航控制车距传感器模块。当接通/关闭开关接通时，自适应巡航控制系统进入等待启用或等待停用模式。等待启用模式表示自适应巡航控制系统功能所需的各条件均已满足，但自适应巡航控制系统尚未启用。如果自适应巡航控制系统处于等待停用模式，则自适应巡航控制系统功能所需的条件尚未满足。当接通/关闭开关关闭时，自适应巡航控制系统将进入停用模式。在停用模式下，自适应巡航控制系统将不会启用。</div>
+      </div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; ">
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-family: Arial; margin-top: 6.00pt; " id="styler-id1.5.6.1">设置/减速开关</div>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; margin-left: 8mm; text-indent: 0pt; ">当自适应巡航控制接通/关闭开关打开并且设置/减速开关短暂按下并释放后，自适应巡航控制系统启用。当按下设置/减速开关后，发动机控制模块将把选定的车速设置为当前车速。车速必须等于或大于40公里/小时（25英里/小时）。驾驶员信息中心将显示选定的车速。当处于启用状态时，可以调节选定的车速和跟随距离。当自适应巡航控制系统启用时按下并保持设置/减速开关，可以在不停用自适应巡航系统的情况下降低选定的车速。当自适应巡航控制系统启用时短暂按下并释放设置/减速开关，每按一次该开关，选定的车速就会下降1.6公里/小时（1英里/小时）。</div>
+      </div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; ">
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-family: Arial; margin-top: 6.00pt; " id="styler-id1.5.7.1">恢复/增速开关</div>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; margin-left: 8mm; text-indent: 0pt; ">恢复/增速开关用于在自适应巡航控制系统启用时增加选定的车速。选定车速的增加数量取决于按下恢复/增速开关的时长。自适应巡航控制车辆路径中出现了行驶较慢的车辆，将限制选定车速可能增大的程度。如果前面无车辆限制自适应巡航控制车辆加速，则达到的车速即为新选定的车速。驾驶员信息中心将显示当前选定的车速。当释放恢复/增速开关后，加速即终止。短暂按下并释放恢复/增速开关，将使车辆以每按一次增加1.6公里/小时（1英里/小时）的幅度加速。</div>
+      </div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.6">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.6.1">车距开关</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">当自适应巡航控制系统启用时，车距开关能够让驾驶员确定自适应巡航控制 (ACC) 车辆跟随目标车辆的距离。如果自适应巡航控制车速由于车辆的行驶速度较慢而受到限制，则自适应巡航控制车速将被自动控制为跟随车速极限值。车距开关具有3个跟随距离选择，范围为1-2米。车距开关从自适应巡航控制车辆到目标车辆之间的跟随距离由时间表示，而非实际距离。某一选定车距的保持距离将随车速而变化。车速越快，跟随的距离越远。车距的设置只能在自适应巡航控制系统启用的时候进行调整。车距开关通过硬线连接至车身控制模块。车身控制模块能够根据电压的变化情况读取车距开关的选择结果，并通过GMLAN串行数据电路将开关状态发送给巡航控制车距传感器模块。车距开关是一个瞬时开关。</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">最初按下车距开关将恢复当前设置，并进行显示。再次按下车距开关将改变车距设置。</div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.7">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.7.1">巡航指示灯和信息</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; ">
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-family: Arial; margin-top: 6.00pt; " id="styler-id1.7.2.1">维修自适应巡航控制系统</div>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; margin-left: 8mm; text-indent: 0pt; ">如果检测到自适应巡航控制 (ACC) 系统有故障，巡航控制车距传感器模块将指令在驾驶员信息中心显示&#8220;SERVICE ACC（维修自适应巡航控制系统）&#8221;信息。巡航控制车距传感器模块通过GMLAN串行数据电路向组合仪表发送一个请求，要求在驾驶员信息中心显示&#8220;SERVICE ACC（维修自适应巡航控制系统）&#8221;信息。只有当诊断条件存在的情况下驾驶员信息中心才会显示&#8220;Service ACC（维修自适应巡航控制系统）&#8221;。当驾驶员信息中心显示该信息时，自适应巡航控制系统将被停用。</div>
+      </div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; ">
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-family: Arial; margin-top: 6.00pt; " id="styler-id1.7.3.1">前雷达堵塞，清洁车辆前部</div>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; margin-left: 8mm; text-indent: 0pt; ">当巡航控制车距传感器模块检测到雷达堵塞时，将在驾驶员信息中心显示&#8220;FRONT RADAR BLOCKED CLEAN FRONT of VEHICLE（前雷达堵塞，清洁车辆前部）&#8221;信息。雷达可能被雪、冰、灰尘、大雨或道路水雾堵塞。在极少数情况下，雷达在垂直方向上的偏离会触发驾驶员信息中心显示&#8220;FRONT RADAR BLOCKED CLEAN FRONT of VEHICLE（前雷达堵塞，清洁车辆前部）&#8221;信息。巡航控制车距传感器模块通过GMLAN串行数据电路向组合仪表发送请求，指令显示&#8220;FRONT RADAR BLOCKED CLEAN FRONT of VEHICLE（前雷达堵塞，清洁车辆前部）&#8221;信息。当驾驶员信息中心显示&#8220;FRONT RADAR BLOCKED CLEAN FRONT of VEHICLE（前雷达堵塞，清洁车辆前部）&#8221;信息时，将车辆安全停车，并关闭点火开关。清洁前蒙皮盖，清除堵塞物。也可能需要清洁盖子内外表面以及巡航控制车距传感器模块的表面。在清洁任何指定表面以前，必须关闭点火开关。这是因为在清洁完这三处表面后，驾驶员信息中心可能仍然显示&#8220;FRONT RADAR BLOCKED CLEAN FRONT of VEHICLE（前雷达堵塞，清洁车辆前部）&#8221;信息。如果驾驶员信息中心的该指示灯仍然开启，则需要将点火开关切换至&#8220;OFF（关闭）&#8221;位置10秒钟来清除&#8220;FRONT RADAR BLOCKED CLEAN FRONT of VEHICLE（前雷达堵塞，清洁车辆前部）&#8221;指示灯。如果在清洁完雷达并切换点火开关后&#8220;前雷达堵塞，清洁车辆前部&#8221;指示灯仍然点亮，则需要检查和验证雷达的对准情况。如果雷达方向偏离，则执行<a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A226428-3446016.html">正向测距雷达模块的校准</a>。</div>
+      </div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; ">
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-family: Arial; margin-top: 6.00pt; " id="styler-id1.7.4.1">巡航启用指示灯</div>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; margin-left: 8mm; text-indent: 0pt; ">当按下设置/减速开关启用自适应巡航控制系统后，组合仪表上的自适应巡航控制系统启用指示灯将进行显示。当驾驶员按下设置/减速开关时，车身控制模块通过GMLAN串行数据电路将开关状态发送给发动机控制模块 (ECM)。发动机控制模块将利用来自于车身控制模块的开关输入信息来确定驾驶员希望的车速。发动机控制模块通过GMLAN串行数据电路将自适应巡航控制系统启用状态和驾驶员的选定车速发送给巡航控制车距传感器模块。当巡航控制车距传感器模块收到发动机控制模块的自适应巡航系统启用信息后，巡航控制车距传感器模块通过向组合仪表发送一个GMLAN串行数据信息来指令点亮自适应巡航控制系统启用指示灯。</div>
+      </div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; ">
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-family: Arial; margin-top: 6.00pt; " id="styler-id1.7.5.1">设置车速</div>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; margin-left: 8mm; text-indent: 0pt; ">当自适应巡航控制系统启用时，驾驶员信息中心将在任何时候显示自适应巡航控制车辆设置车速。巡航控制车距传感器模块通过GMLAN串行数据电路向组合仪表发送设置车速显示请求。</div>
+      </div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; ">
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-family: Arial; margin-top: 6.00pt; " id="styler-id1.7.6.1">跟随距离</div>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; margin-left: 8mm; text-indent: 0pt; ">当自适应巡航控制系统已启用并且车距开关已激活时，驾驶员信息中心将显示驾驶员选定的跟随车距。在按下车距开关来增大或减小跟随车距后，驾驶员信息中心将显示当前跟随距离设置值并持续几秒钟。巡航控制车距传感器模块通过GMLAN串行数据电路向组合仪表发送跟随车距显示请求。</div>
+      </div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; ">
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-family: Arial; margin-top: 6.00pt; " id="styler-id1.7.7.1">前方车辆指示灯</div>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; margin-left: 8mm; text-indent: 0pt; ">当雷达探测到前方路径有车辆时，组合仪表中的前方车辆指示灯将被点亮。前方车辆指示灯是一个用于提醒驾驶员前方有车辆的警告指示灯。该指示灯也为驾驶员提供了表明雷达功能正常的反馈信号。巡航控制车距传感器模块通过向组合仪表发送一个GMLAN串行数据信息来指令点亮前方车辆指示灯。前方车辆指示灯仅在自适应巡航控制系统启用的情况下才会点亮，有时遇到静止的道路物体也可能点亮。</div>
+      </div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.8">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.8.1">巡航启用</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">自适应巡航控制 (ACC) 系统根据以下巡航开关的启用来开启和调节车速：</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; line-height: 16.00pt; ">
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;接通/关闭</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;设置/减速</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;恢复/增速</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">如果激活了任何禁用条件，则自适应巡航控制系统将不会启用。此外，在每个点火循环，驾驶员在启用自适应巡航控制系统以前必须踩下制动器。发运机控制模块 (ECM) 将监督车身控制模块，是否发出了表明驾驶员在试图启用自适应巡航控制系统前已踩下制动器的制动器初始行程获取信号。</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">启用自适应巡航控制系统时车速必须高于45公里/小时（28英里/小时）且低于190公里/小时（118英里/小时）。在启用状态下，自适应巡航控制系统允许驾驶员在仍然保持启用的状态下短暂超越受控车速。</div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.9">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.9.1">巡航禁用</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; ">
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-family: Arial; margin-top: 6.00pt; " id="styler-id1.9.2.1">巡航控制车距传感器模块禁用</div>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; margin-left: 8mm; text-indent: 0pt; ">如果存在以下任何情况，巡航控制车距传感器模块将禁用自适应巡航控制 (ACC) 系统：</div>
+      </div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; line-height: 16.00pt; ">
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;驾驶员信息中心显示&#8220;Service ACC（维修自适应巡航控制系统）&#8221;信息。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;未收到制动踏板位置传感器发送的制动踏板初始行程信号。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;自适应巡航控制系统出现故障。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;驾驶员信息中心显示&#8220;FRONT RADAR BLOCKED CLEAN FRONT of VEHICLE（前雷达堵塞，清洁车辆前部）&#8221;。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;车速无效。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;自动刹车过程中启用防抱死制动系统 (ABS)。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;车身控制模块向巡航控制车距传感器模块发送巡航开关故障信息。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;自动刹车故障 - 电子制动控制模块 (EBCM) 向巡航控制车距传感器模块发送了指示自动刹车故障的GMLAN信号。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;防抱死制动系统发送制动器过热信号。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;巡航控制车距传感器模块收发器温度过高。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;驾驶员施加了制动压力。</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; ">
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-family: Arial; margin-top: 6.00pt; " id="styler-id1.9.4.1">发动机控制模块禁用</div>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; margin-left: 8mm; text-indent: 0pt; ">如果存在以下任何情况，发动机控制模块将禁用自适用巡航控制系统：</div>
+      </div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; line-height: 16.00pt; ">
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;收到了巡航控制车距传感器模块发送的自适应巡航控制系统禁用信号。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;车速低于45公里/小时（28英里/小时）。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;车速大于190公里/小时（118英里/小时）。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;自动刹车故障 - 电子制动控制模块 (EBCM) 向发动机控制模块发送了指示自动刹车故障的GMLAN信号。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;车身控制模块发送的自适应巡航控制当前信号有错。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;驾驶员施加了制动压力。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;巡航控制开关存在故障。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;智能功率模块启用了驻车制动器开关信号。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;节气门执行器控制系统有故障。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;牵引力控制系统启用。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;防抱死制动系统启用。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;发动机转速保护启用。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;车速保护启用。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;发动机转速过高或过低。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;自动变速器处于一档、驻车档、空档或倒档。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;未收到制动踏板位置传感器发送的制动踏板初始行程信号。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;系统电压过低。</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.10">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.10.1">巡航停用</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">发生以下任何情况将停用自适应巡航控制 (ACC) 系统：</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; font-size: 12pt; line-height: 16.00pt; ">
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;驾驶员踩下制动踏板。</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="0" style="table-layout: fixed; margin-left: 0pt; text-indent: 0pt; " class=" x-item-20-0 x-item-20-2">
+          <col style="width: 0pt">
+          <col style="width: 0pt">
+          <col>
+          <tbody>
+            <tr valign="baseline">
+              <td align="right"></td><td align="center"></td><td><span class=" x-ptxt-4-0 x-ptxt-4-2"><span style="font-size: 14pt; font-family: Arial; ">&#8226; </span> &nbsp;驾驶员将自适应巡航控制系统接通/关闭开关切换为&#8220;OFF（关闭）&#8221;。</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-family: Arial; font-size: 12pt; text-indent: 8mm; line-height: 16.00pt; margin-top: 6.00pt; ">在自适应巡航控制系统启用时踩下制动踏板将断开自适应巡航系统。</div>
+    </div>
+    <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " id="styler-id1.11">
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-size: 12pt; font-family: Arial; margin-top: 10pt; margin-bottom: 6pt; " id="styler-id1.11.1">其他自适应巡航控制 (ACC) 系统故障</div>
+      <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; ">
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-weight: bold; text-align: left; text-align-last: relative; hyphenate: false; keep-with-next.within-column: 7; keep-together.within-column: 7; font-family: Arial; margin-top: 6.00pt; " id="styler-id1.11.2.1">机械对准</div>
+        <div style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; margin-top: 2.00pt; margin-bottom: 2.00pt; margin-left: 8mm; text-indent: 0pt; ">如果雷达无法对准，巡航控制车距传感器模块将设置DTC C1002。如果设置了DTC C1002，则需要使用专用校准工具将雷达进行机械对准。参见<a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A117703-2706527.html">DTC C1002</a>。更多的雷达对准和定位信息参见<a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A226428-3446016.html">正向测距雷达模块的校准</a>。失准故障可能是由于擅自改变或破坏了巡航控制车距传感器模块支架结构或修改了调节器设置值造成。失准故障还可能是由于车辆前部受损或仅因磨损造成。巡航控制车距传感器模块的正确安装和调节参见<a style="margin-left: 0pt; margin-right: 0pt; text-indent: 0pt; font-size: 12pt; line-height: 16.00pt; " href="A224682-3446009.html">正向测距雷达模块的更换</a>。巡航控制车距传感器模块更换后，自适应巡航控制系统的性能可能会下降。正常行驶车辆将可以纠正自适应巡航控制系统的性能。</div>
+      </div>
+    </div>
+  </div>
+</html>
+
+<script>
+
+</script>
